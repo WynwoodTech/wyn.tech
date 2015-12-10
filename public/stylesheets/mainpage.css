@@ -16,14 +16,14 @@ body {
   .container-title .sub-title {
     font-size: 15px;
     color: white;
-    display: inline-block; }
+    display: block; }
 
 .footer-area {
   width: 100%;
   position: fixed;
   display: inline;
   height: 100px;
-  top: 65%;
+  top: 80%;
   text-align: center; }
   .footer-area .navlink {
     font-size: 30px;
