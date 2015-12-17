@@ -1,0 +1,21 @@
+{
+  "name": "wyn.tech",
+  "version": "0.0.0",
+  "directory": "app/bower_components/",
+  "homepage": "https://github.com/WynwoodTech/wyn.tech",
+  "authors": [
+    "Antonio <antoniom13>"
+  ],
+  "description": "Wynwood Tech Website - Bower Dependencies",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
