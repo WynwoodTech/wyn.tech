@@ -1,12 +1,15 @@
 {
   "name": "wyn.tech",
   "version": "0.0.0",
-  "directory": "./app/bower_components/",
   "homepage": "https://github.com/WynwoodTech/wyn.tech",
   "authors": [
     "Antonio <antoniom13>",
-    "isaac <isaacito>"
+    "isaac <isaacito>",
+    "Daniel <dseravalli>"
   ],
+  "install":{
+    "path": "app/bower_components"
+  },
   "description": "Wynwood Tech Website - Bower Dependencies",
   "moduleType": [
     "es6"
