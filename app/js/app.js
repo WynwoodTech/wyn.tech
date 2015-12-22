@@ -3,6 +3,7 @@
 var WynTech = angular.module('WynTech', [
   'ui.router',
   'ngRoute',
+  'duScroll',
   'WynTech.home'
 ])
 
