@@ -20,6 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.8"
+    "angular": "~1.4.8",
+    "ngSmoothScroll": "~2.0.0"
   }
 }
