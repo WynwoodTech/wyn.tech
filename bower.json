@@ -21,6 +21,6 @@
   ],
   "dependencies": {
     "angular": "~1.4.8",
-    "ngSmoothScroll": "~2.0.0"
+    "angular-scroll": "~1.0.0"
   }
 }
