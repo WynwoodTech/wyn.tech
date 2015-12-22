@@ -63,7 +63,19 @@ body {
   width: 70%;
   min-height: 100vh;
   margin: auto;
-  color: white; }
+  color: white;
+  margin-bottom: 30vh; }
+  .about .laptop-image {
+    background-image: url("../images/lapcell.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    display: block;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    left: 15%;
+    bottom: 40px; }
 
 .slack {
   position: relative;
@@ -71,6 +83,17 @@ body {
   min-height: 100vh;
   margin: auto;
   color: white; }
+  .slack .slack-image {
+    background-image: url("../images/slack.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    display: block;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    left: 30%;
+    bottom: 40px; }
 
 .footer {
   background: #252525;
@@ -80,8 +103,8 @@ body {
   min-height: 200px;
   text-align: center; }
   .footer .footer-cta {
-    padding-top: 15px;
-    font-size: 30px;
+    padding-top: 25px;
+    font-size: 25px;
     color: white; }
   .footer .footlinkarea {
     padding-top: 25px; }
