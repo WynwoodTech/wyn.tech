@@ -1,7 +1,7 @@
 {
   "name": "wyn.tech",
   "version": "0.0.0",
-  "directory": "app/bower_components/",
+  "directory": "./app/bower_components/",
   "homepage": "https://github.com/WynwoodTech/wyn.tech",
   "authors": [
     "Antonio <antoniom13>",
