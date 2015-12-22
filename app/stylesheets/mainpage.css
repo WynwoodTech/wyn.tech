@@ -5,11 +5,13 @@ body {
   margin: 0; }
 
 .nav-bar {
-  position: relative;
+  background: black;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  display: block; }
+  display: block;
+  z-index: 9; }
   .nav-bar .logo {
     background-image: url("../images/WT.png");
     background-repeat: no-repeat;
@@ -18,7 +20,7 @@ body {
     display: block;
     height: 50px;
     margin-left: 10px;
-    margin-top: 15px; }
+    margin-top: 5px; }
   .nav-bar .menu {
     position: absolute;
     right: 0;
@@ -28,7 +30,7 @@ body {
       font-size: 14px;
       color: white;
       margin-right: 35px;
-      margin-top: 30px;
+      margin-top: 20px;
       text-decoration: none; }
       .nav-bar .menu a:hover {
         text-decoration: underline;

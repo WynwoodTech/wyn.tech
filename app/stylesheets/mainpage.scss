@@ -6,11 +6,13 @@ body {
 }
 
 .nav-bar{
-	position: relative;
+	background: black;
+	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
 	display: block;
+	z-index: 9;
 	.logo{
 		background-image: url("../images/WT.png");
 		background-repeat: no-repeat;
@@ -19,7 +21,7 @@ body {
 		display: block;
 		height: 50px;
 		margin-left: 10px;
-		margin-top: 15px;
+		margin-top: 5px;
 	}
 	.menu{
 		position: absolute;
@@ -30,7 +32,7 @@ body {
 			font-size: 14px;
 			color:white;
 			margin-right: 35px;
-			margin-top: 30px;
+			margin-top: 20px;
 			text-decoration:none;
 			&:hover{
 				text-decoration:underline;
