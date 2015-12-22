@@ -69,12 +69,12 @@ body {
     background-image: url("../images/lapcell.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
     overflow: hidden;
     display: block;
     height: 400px;
     position: relative;
     margin: auto;
-    left: 15%;
     bottom: 40px; }
 
 .slack {
@@ -87,12 +87,12 @@ body {
     background-image: url("../images/slack.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
     overflow: hidden;
     display: block;
-    height: 300px;
+    height: 275px;
     position: relative;
     margin: auto;
-    left: 30%;
     bottom: 40px; }
 
 .footer {
