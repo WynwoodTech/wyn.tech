@@ -32,10 +32,6 @@ body {
 			margin-right: 35px;
 			margin-top: 30px;
 			text-decoration:none;
-			transition: all ease 1s;
-    -o-transition: all ease 1s;
-      -moz-transition: all ease 1s;
-        -webkit-transition: all ease 1s;
 			&:hover{
 				text-decoration:underline;
 				color:white;
@@ -60,29 +56,29 @@ body {
 		display: block;
 	}
 }
-	.line{
-		background: white;
-		height: 6px;
-		width:100%;
-		position:absolute;
-		left:0;
-		margin-top:50px;
-	}
-		.header{
-		display: block;
-    padding-top: 15px;
-    font-size: 50px;
-    font-weight: bolder;
-		}
+.line{
+	background: white;
+	height: 6px;
+	width:100%;
+	position:absolute;
+	left:0;
+	margin-top:50px;
+}
+.header{
+	display: block;
+	padding-top: 15px;
+	font-size: 50px;
+	font-weight: bolder;
+}
 
-	.about{
-		position: relative;
-    width: 70%;
-    min-height: 100vh;
-    margin: auto;
-		color:white;
-	  margin-bottom: 30vh;
-		.laptop-image{
+.about{
+	position: relative;
+	width: 70%;
+	min-height: 100vh;
+	margin: auto;
+	color:white;
+	margin-bottom: 30vh;
+	.laptop-image{
 		background-image: url("../images/lapcell.png");
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -91,21 +87,21 @@ body {
 		display: block;
 		height: 400px;
 		position: relative;
-    margin: auto;
-		}
-		.about-text{
-
-		}
+		margin: auto;
 	}
-	.slack{
-		position: relative;
-    width: 70%;
-    min-height: 100vh;
-    margin: auto;
-		color:white;
-		.slack-text{
-		}
-		.slack-image{
+	.about-text{
+
+	}
+}
+.slack{
+	position: relative;
+	width: 70%;
+	min-height: 100vh;
+	margin: auto;
+	color:white;
+	.slack-text{
+	}
+	.slack-image{
 		background-image: url("../images/slack.png");
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -114,16 +110,16 @@ body {
 		display: block;
 		height: 275px;
 		position: relative;
-    margin: auto;
-		}
+		margin: auto;
 	}
+}
 
 .footer{
 	background:#252525;
-		display: inline-block;
-	  position: relative;
-    width: 100%;
-    min-height: 200px;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	min-height: 200px;
 	text-align: center;
 	.footer-cta{
 		padding-top:25px;
@@ -132,14 +128,14 @@ body {
 	}
 	.footlinkarea{
 		padding-top:25px;
-	.footer-link{
-		font-size: 30px;
-		padding: 25px;
-		color: white;
-		&:hover{
-			color:#009CF3;
+		.footer-link{
+			font-size: 30px;
+			padding: 25px;
+			color: white;
+			&:hover{
+				color:#009CF3;
+			}
 		}
 	}
-}
 
 }
