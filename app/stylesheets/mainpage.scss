@@ -25,12 +25,21 @@ body {
 		position: absolute;
 		right: 0;
 		top: 0;
-		.nav-item{
+		a{
 			display: inline-block;
 			font-size: 14px;
 			color:white;
 			margin-right: 35px;
 			margin-top: 30px;
+			text-decoration:none;
+			transition: all ease 1s;
+    -o-transition: all ease 1s;
+      -moz-transition: all ease 1s;
+        -webkit-transition: all ease 1s;
+			&:hover{
+				text-decoration:underline;
+				color:white;
+			}
 		}
 	}
 }
@@ -57,6 +66,7 @@ body {
 		width:100%;
 		position:absolute;
 		left:0;
+		margin-top:50px;
 	}
 		.header{
 		display: block;
@@ -82,7 +92,6 @@ body {
 		height: 400px;
 		position: relative;
     margin: auto;
-    bottom: 40px;
 		}
 		.about-text{
 
@@ -106,7 +115,6 @@ body {
 		height: 275px;
 		position: relative;
     margin: auto;
-    bottom: 40px;
 		}
 	}
 

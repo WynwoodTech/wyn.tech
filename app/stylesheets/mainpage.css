@@ -23,12 +23,20 @@ body {
     position: absolute;
     right: 0;
     top: 0; }
-    .nav-bar .menu .nav-item {
+    .nav-bar .menu a {
       display: inline-block;
       font-size: 14px;
       color: white;
       margin-right: 35px;
-      margin-top: 30px; }
+      margin-top: 30px;
+      text-decoration: none;
+      transition: all ease 1s;
+      -o-transition: all ease 1s;
+      -moz-transition: all ease 1s;
+      -webkit-transition: all ease 1s; }
+      .nav-bar .menu a:hover {
+        text-decoration: underline;
+        color: white; }
 
 .container-title {
   width: 100%;
@@ -50,7 +58,8 @@ body {
   height: 6px;
   width: 100%;
   position: absolute;
-  left: 0; }
+  left: 0;
+  margin-top: 50px; }
 
 .header {
   display: block;
@@ -74,8 +83,7 @@ body {
     display: block;
     height: 400px;
     position: relative;
-    margin: auto;
-    bottom: 40px; }
+    margin: auto; }
 
 .slack {
   position: relative;
@@ -92,8 +100,7 @@ body {
     display: block;
     height: 275px;
     position: relative;
-    margin: auto;
-    bottom: 40px; }
+    margin: auto; }
 
 .footer {
   background: #252525;
