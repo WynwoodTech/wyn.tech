@@ -29,19 +29,26 @@
     <span class="header">Join Our Slack</span>
     <span class="slack-text">We are on Slack! If you have any interest being part of awesome discussions, request an invite to join our channel. 
       Our Slack channel has some of the best engineers, busniess oriented people, and creatives in Miami!</span>
-  <div class="invite-area">
-    <div class="invite-text">Send us a request to join the Wynwood Tech Slack!</div>
-    <a href="#" class="action-button shadow animate blue">Join Now!</a>
-  </div>
   </span>
 </div>
+
+<div class="invite-area">
+    <span href="#" class="button"  ng-model="collapsed" ng-click="collapsed=!collapsed">Request Slack Intive</span>
+    <div id="login" ng-show="collapsed">
+      <div id="triangle"></div>
+      <form>
+        <input type="email" placeholder="Email" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+   </div>
 
 <div class="footer">
   <div class="footer-cta">Get In Touch</div>
   <div class="footlinkarea">
-  <a class="footer-link" href="https://www.facebook.com/wynwoodtech" target="_blank"><div class="fa fa-facebook-square fa-2x"></div></a>
-  <a class="footer-link" href="http://instagram.com/wynwoodtech/" target="_blank"><div class="fa fa-instagram fa-2x"></div></a>
-  <a class="footer-link" href="https://twitter.com/wynwoodtech" target="_blank"><div class="fa fa-twitter-square fa-2x"></div></a>
-  <a class="footer-link" href="https://github.com/WynwoodTech" target="_blank"><div class="fa fa-github-square fa-2x"></div></a>
-</div>
+    <a class="footer-link" href="https://www.facebook.com/wynwoodtech" target="_blank"><div class="fa fa-facebook-square fa-2x"></div></a>
+    <a class="footer-link" href="http://instagram.com/wynwoodtech/" target="_blank"><div class="fa fa-instagram fa-2x"></div></a>
+    <a class="footer-link" href="https://twitter.com/wynwoodtech" target="_blank"><div class="fa fa-twitter-square fa-2x"></div></a>
+    <a class="footer-link" href="https://github.com/WynwoodTech" target="_blank"><div class="fa fa-github-square fa-2x"></div></a>
+  </div>
 </div>
