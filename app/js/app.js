@@ -4,6 +4,7 @@ var WynTech = angular.module('WynTech', [
   'ui.router',
   'ngRoute',
   'duScroll',
+  'firebase',
   'WynTech.home'
 ])
 
