@@ -13,6 +13,12 @@
     through technology!</span>
 </div>
 
+<div class="chats" id="current-chats">
+  <ul>
+    <li ng-repeat="message in generalMessages">{{ message.username }}: {{message.message}}</li>
+  </ul>
+</div>
+
 <div class="about" id="what-we-do">
   <div class="laptop-image"></div>
   <span class="line">
