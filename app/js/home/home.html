@@ -39,9 +39,9 @@
       ng-click="collapsed=!collapsed">Request Slack Invite</span>
     <div id="login" ng-show="collapsed">
       <div id="triangle"></div>
-      <form>
-        <input type="email" placeholder="Email" />
-        <input type="submit" value="Submit" />
+      <form class="simple-form">
+        <input type="email" placeholder="Email" ng-model="user.email" />
+        <input type="submit" value="Save" ng-click="update(user)"/>
       </form>
     </div>
    </div>

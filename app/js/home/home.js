@@ -23,5 +23,11 @@ angular.module('WynTech.home', [])
   };
 
   $scope.generalMessages = $firebaseArray(generalMessageRef);
+  
+  $scope.master = {};
 
+  $scope.update = function(user) {
+    $scope.master = angular.copy(user);
+    console.log($scope.master);
+    };
 }]);
