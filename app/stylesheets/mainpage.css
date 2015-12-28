@@ -209,15 +209,18 @@ body {
       .invite-area #login form input[type="submit"]:hover {
         background: #2288bb; }
 
+.preview {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 40px;
+  width: 66%;
+  margin: 0 auto; }
+
 .chat-area {
   padding-top: 25px;
   padding-bottom: 50px;
   height: 450px; }
-  .chat-area .preview {
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    padding-bottom: 40px; }
   .chat-area .chat-header {
     background: #009CF3;
     color: #ffffff;

@@ -1,5 +1,5 @@
 <div class="nav-bar">
-  <a href="#" ng-click="scrollEvent('home-title')"> <div class="logo" ></div></a>
+  <a href="#" ><div class="logo" ng-click="scrollEvent('home-title')"></div></a>
   <div class="menu">
     <span class="nav-item"><a href="#" ng-click="scrollEvent('what-we-do')">What We Do</a></span>
     <span class="nav-item"><a href="#" ng-click="scrollEvent('events')">Events</a></span>
@@ -34,6 +34,7 @@
 </div>
 
 <div class="invite-area">
+   <div class="preview">Click below to get in the action!</div>
     <span href="#" class="button"  ng-model="collapsed"
       ng-click="collapsed=!collapsed">Request Slack Invite</span>
     <div id="login" ng-show="collapsed">
@@ -47,7 +48,6 @@
 
    <div class="chat-area">
    <div class="preview">Take a sneak peek of what the wyn.tech crew is chatting about!</div>
-
   <div class="chat-header" ng-model="chatty" ng-click="chatty=!chatty">
       <h2>wyn.tech</h2>
       <span class="chat-arrow">
