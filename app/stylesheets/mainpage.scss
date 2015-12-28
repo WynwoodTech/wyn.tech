@@ -82,6 +82,7 @@ body {
 	margin: auto;
 	color:white;
 	margin-bottom: 30vh;
+	padding-top:25px;
 	.laptop-image{
 		background-image: url("../images/lapcell.png");
 		background-repeat: no-repeat;
@@ -89,7 +90,7 @@ body {
 		background-position: 50% 50%;
 		overflow: hidden;
 		display: block;
-		height: 400px;
+		height: 350px;
 		position: relative;
 		margin: auto;
 	}
@@ -103,6 +104,7 @@ body {
 	min-height: 75vh;
 	margin: auto;
 	color:white;
+	padding-top:25px;
 	.slack-text{
 	}
 	.slack-image{
@@ -161,17 +163,17 @@ body {
 	display: inline-block;
 	position: relative;
 	width: 100%;
-	min-height: 200px;
+	min-height: 150px;
 	text-align: center;
 	.footer-cta{
-		padding-top:25px;
-		font-size:25px;
+		padding-top:15px;
+		font-size:22px;
 		color:white;
 	}
 	.footlinkarea{
-		padding-top:25px;
+		padding-top:18px;
 		.footer-link{
-			font-size: 30px;
+			font-size: 40px;
 			padding: 25px;
 			color: white;
 			&:hover{
@@ -252,14 +254,14 @@ body {
 		}
 	}
 }
-	.preview{
-		color:white;
-		font-size: 16px;
-		text-align: center;
-		padding-bottom:40px;
-		width: 66%;
-    margin: 0 auto;
-	}
+.preview{
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom:40px;
+	width: 66%;
+	margin: 0 auto;
+}
 .chat-area{
 	padding-top: 25px;
 	padding-bottom: 50px;

@@ -73,7 +73,8 @@ body {
   min-height: 100vh;
   margin: auto;
   color: white;
-  margin-bottom: 30vh; }
+  margin-bottom: 30vh;
+  padding-top: 25px; }
   .about .laptop-image {
     background-image: url("../images/lapcell.png");
     background-repeat: no-repeat;
@@ -81,7 +82,7 @@ body {
     background-position: 50% 50%;
     overflow: hidden;
     display: block;
-    height: 400px;
+    height: 350px;
     position: relative;
     margin: auto; }
 
@@ -90,7 +91,8 @@ body {
   width: 70%;
   min-height: 75vh;
   margin: auto;
-  color: white; }
+  color: white;
+  padding-top: 25px; }
   .slack .slack-image {
     background-image: url("../images/slack.png");
     background-repeat: no-repeat;
@@ -137,16 +139,16 @@ body {
   display: inline-block;
   position: relative;
   width: 100%;
-  min-height: 200px;
+  min-height: 150px;
   text-align: center; }
   .footer .footer-cta {
-    padding-top: 25px;
-    font-size: 25px;
+    padding-top: 15px;
+    font-size: 22px;
     color: white; }
   .footer .footlinkarea {
-    padding-top: 25px; }
+    padding-top: 18px; }
     .footer .footlinkarea .footer-link {
-      font-size: 30px;
+      font-size: 40px;
       padding: 25px;
       color: white; }
       .footer .footlinkarea .footer-link:hover {

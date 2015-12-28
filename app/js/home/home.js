@@ -11,23 +11,23 @@ angular.module('WynTech.home', [])
 
   var generalMessageRef = new Firebase("https://wyntech.firebaseio.com/general");
 
-  generalMessageRef.on("value", function(snapshot){
-    console.log(snapshot.val());
-  }, function (errorObject){
-    console.log(erroObject);
-  });
+    generalMessageRef.on("value", function(snapshot){
+      console.log(snapshot.val());
+    }, function (errorObject){
+      console.log(erroObject);
+    });
 
-  $scope.scrollEvent = function(id){
-    var whatWeDoElement = angular.element(document.getElementById(id));
-    $document.scrollToElement(whatWeDoElement, offset, duration)
-  };
+    $scope.scrollEvent = function(id){
+      var whatWeDoElement = angular.element(document.getElementById(id));
+      $document.scrollToElement(whatWeDoElement, offset, duration)
+    };
 
-  $scope.generalMessages = $firebaseArray(generalMessageRef);
-  
-  $scope.master = {};
+    $scope.generalMessages = $firebaseArray(generalMessageRef);
 
-  $scope.update = function(user) {
-    $scope.master = angular.copy(user);
-    console.log($scope.master);
+    $scope.master = {};
+
+    $scope.update = function(user) {
+      $scope.master = angular.copy(user);
+      console.log($scope.master);
     };
 }]);

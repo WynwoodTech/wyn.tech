@@ -34,46 +34,46 @@
 </div>
 
 <div class="invite-area">
-   <div class="preview">Click below to get in the action!</div>
-    <span href="#" class="button"  ng-model="collapsed"
-      ng-click="collapsed=!collapsed">Request Slack Invite</span>
-    <div id="login" ng-show="collapsed">
-      <div id="triangle"></div>
-      <form class="simple-form">
-        <input type="email" placeholder="Email" ng-model="user.email" />
-        <input type="submit" value="Save" ng-click="update(user)"/>
-      </form>
-    </div>
-   </div>
+  <div class="preview">Click below to get in the action!</div>
+  <span href="#" class="button"  ng-model="collapsed"
+    ng-click="collapsed=!collapsed">Request Slack Invite</span>
+  <div id="login" ng-show="collapsed">
+    <div id="triangle"></div>
+    <form class="simple-form">
+      <input type="email" placeholder="Email" ng-model="user.email" />
+      <input type="submit" value="Save" ng-click="update(user)"/>
+    </form>
+  </div>
+</div>
 
-   <div class="chat-area">
-   <div class="preview">Take a sneak peek of what the wyn.tech crew is chatting about!</div>
+<div class="chat-area">
+  <div class="preview">Take a sneak peek of what the wyn.tech crew is chatting about!</div>
   <div class="chat-header" ng-model="chatty" ng-click="chatty=!chatty">
-      <h2>wyn.tech</h2>
-      <span class="chat-arrow">
+    <h2>wyn.tech</h2>
+    <span class="chat-arrow">
       <i ng-hide="chatty" class="fa fa-angle-down"></i>
       <i ng-show="chatty" class="fa fa-angle-up"></i>
-      </span>
+    </span>
   </div>
-<div class="chats" id="current-chats" ng-hide="chatty">
-  <ul>
-    <li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">
-    <span class="chat-avatar"></span>
-    <div class="content">
-    <span class="chat-name">{{ message.username }}:</span>
-    <span class="chat-message">{{message.message}}</span>
-    </div>
-    </li>
-  </ul>
-</div>
+  <div class="chats" id="current-chats" ng-hide="chatty">
+    <ul>
+      <li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">
+      <span class="chat-avatar"></span>
+      <div class="content">
+        <span class="chat-name">{{ message.username }}:</span>
+        <span class="chat-message">{{message.message}}</span>
+      </div>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <div class="footer">
   <div class="footer-cta">Get In Touch</div>
   <div class="footlinkarea">
-    <a class="footer-link" href="https://www.facebook.com/wynwoodtech" target="_blank"><div class="fa fa-facebook-square fa-2x"></div></a>
-    <a class="footer-link" href="http://instagram.com/wynwoodtech/" target="_blank"><div class="fa fa-instagram fa-2x"></div></a>
-    <a class="footer-link" href="https://twitter.com/wynwoodtech" target="_blank"><div class="fa fa-twitter-square fa-2x"></div></a>
-    <a class="footer-link" href="https://github.com/WynwoodTech" target="_blank"><div class="fa fa-github-square fa-2x"></div></a>
+    <a class="footer-link" href="https://www.facebook.com/wynwoodtech" target="_blank"><div class="fa fa-facebook-square"></div></a>
+    <a class="footer-link" href="http://instagram.com/wynwoodtech/" target="_blank"><div class="fa fa-instagram"></div></a>
+    <a class="footer-link" href="https://twitter.com/wynwoodtech" target="_blank"><div class="fa fa-twitter-square"></div></a>
+    <a class="footer-link" href="https://github.com/WynwoodTech" target="_blank"><div class="fa fa-github-square"></div></a>
   </div>
 </div>
