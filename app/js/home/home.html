@@ -13,18 +13,6 @@
     through technology!</span>
 </div>
 
-<div class="chats" id="current-chats">
-  <span class="chat-header">wyn.tech </span>
-  <ul>
-    <li ng-repeat="message in generalMessages">
-    <span class="chat-avatar"></span>
-    <div class="content">
-    <span class="chat-name">{{ message.username }}:</span>
-    <span class="chat-message">{{message.message}}</span>
-    </div>
-    </li>
-  </ul>
-</div>
 
 <div class="about" id="what-we-do">
   <div class="laptop-image"></div>
@@ -56,6 +44,19 @@
       </form>
     </div>
    </div>
+
+<div class="chats" id="current-chats">
+  <div class="chat-header"><h2>wyn.tech </h2></div>
+  <ul>
+    <li class="odd" ng-repeat="message in generalMessages"ng-class="{'even': $index%2==0}">
+    <span class="chat-avatar"></span>
+    <div class="content">
+    <span class="chat-name">{{ message.username }}:</span>
+    <span class="chat-message">{{message.message}}</span>
+    </div>
+    </li>
+  </ul>
+</div>
 
 <div class="footer">
   <div class="footer-cta">Get In Touch</div>

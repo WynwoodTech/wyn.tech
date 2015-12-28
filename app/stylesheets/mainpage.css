@@ -215,13 +215,24 @@ body {
   overflow-y: scroll;
   position: relative;
   max-height: 360px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 20px; }
+  .chats .odd {
+    background: #252525; }
+  .chats .even {
+    background: #111;
+    border: 2px solid #252525; }
   .chats .chat-header {
-    background: #bd6982;
+    background: #009CF3;
     padding: 10px 15px;
     color: #ffffff;
     font-size: 14px;
-    cursor: move; }
+    cursor: move;
+    text-align: center; }
+    .chats .chat-header h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 14px; }
   .chats ul {
     list-style: none;
     padding: 0;
@@ -229,7 +240,6 @@ body {
     border-top: 1px solid #f2f2f2; }
     .chats ul li {
       position: relative;
-      background: #ffffff;
       display: block;
       width: 100%;
       padding: 10px;
@@ -242,7 +252,8 @@ body {
         color: #ffffff;
         line-height: 50px;
         text-align: center;
-        text-decoration: none; }
+        text-decoration: none;
+        border-radius: 5px; }
       .chats ul li .content {
         display: inline-block;
         margin-left: 6px;
@@ -252,13 +263,13 @@ body {
           display: block;
           width: 100%;
           margin-bottom: 5px;
-          color: #808080; }
+          color: #fff; }
         .chats ul li .content .chat-message {
           display: block;
           width: 100%;
           max-width: 200px;
           margin-bottom: 5px;
-          color: #cccccc;
+          color: #bcc3d0;
           font-size: 12px; }
 
 /*# sourceMappingURL=mainpage.css.map */
