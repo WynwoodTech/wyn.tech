@@ -252,75 +252,95 @@ body {
 		}
 	}
 }
-
-.chats{
-	background: #fff;
-	width: 300px;
-	overflow-y: scroll;
-	position: relative;
-	max-height: 360px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-	.odd{
-		background:#252525;
-	}
-	.even{
-		background:#111;
-		border: 2px solid #252525;
+.chat-area{
+	padding-top: 25px;
+	padding-bottom: 50px;
+	height: 450px;
+	.preview{
+		color:white;
+		font-size: 16px;
+		text-align: center;
+		padding-bottom:40px;
 	}
 	.chat-header{
 		background: #009CF3;
-		padding: 10px 15px;
 		color: #ffffff;
 		font-size: 14px;
-		cursor: move;
 		text-align: center;
+		margin: 0 auto;
+		position: relative;
+		width: 300px;
+		height: 35px;
+		line-height: 35px;
+		cursor: pointer;
 		h2{
 			margin: 0;
 			padding: 0;
 			font-size: 14px;
 		}
-	}
-	ul{
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		border-top: 1px solid #f2f2f2;
-		li{
+		.chat-arrow{
+			font-size: 20px;
+			color: white;
 			position: relative;
-			display: block;
-			width: 100%;
-			padding: 10px;
-			box-sizing: border-box;
-			.chat-avatar{
-				display: inline-block;
-				background: #bfbfbf;
-				width: 50px;
-				height: 50px;
-				color: #ffffff;
-				line-height: 50px;
-				text-align: center;
-				text-decoration: none;
-				border-radius: 5px;
-			}
-			.content{
-				display: inline-block;
-				margin-left: 6px;
-				vertical-align: top;
-				line-height: 1;
-				.chat-name{
-					display: block;
-					width: 100%;
-					margin-bottom: 5px;
-					color: #fff;
-				}	
-				.chat-message{
-					display: block;
-					width: 100%;
-					max-width: 200px;
-					margin-bottom: 5px;
-					color: #bcc3d0;
-					font-size: 12px;
+			bottom: 34px;
+			left: 125px;
+		}
+	}
+	.chats{
+		background: #fff;
+		width: 300px;
+		overflow-y: scroll;
+		position: relative;
+		max-height: 360px;
+		margin: 0 auto;
+		.odd{
+			background:#252525;
+		}
+		.even{
+			background:#111;
+			border: 2px solid #252525;
+		}
+		ul{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			border-top: 1px solid #f2f2f2;
+			li{
+				position: relative;
+				display: block;
+				width: 100%;
+				padding: 10px;
+				box-sizing: border-box;
+				.chat-avatar{
+					display: inline-block;
+					background: #bfbfbf;
+					width: 50px;
+					height: 50px;
+					color: #ffffff;
+					line-height: 50px;
+					text-align: center;
+					text-decoration: none;
+					border-radius: 5px;
+				}
+				.content{
+					display: inline-block;
+					margin-left: 6px;
+					vertical-align: top;
+					line-height: 1;
+					.chat-name{
+						display: block;
+						width: 100%;
+						margin-bottom: 5px;
+						color: #fff;
+					}	
+					.chat-message{
+						display: block;
+						width: 100%;
+						max-width: 200px;
+						margin-bottom: 5px;
+						color: #bcc3d0;
+						font-size: 12px;
+					}
 				}
 			}
 		}
