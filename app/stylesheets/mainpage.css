@@ -209,4 +209,56 @@ body {
       .invite-area #login form input[type="submit"]:hover {
         background: #2288bb; }
 
+.chats {
+  background: #fff;
+  width: 300px;
+  overflow-y: scroll;
+  position: relative;
+  max-height: 360px;
+  margin: 0 auto; }
+  .chats .chat-header {
+    background: #bd6982;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: move; }
+  .chats ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #f2f2f2; }
+    .chats ul li {
+      position: relative;
+      background: #ffffff;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box; }
+      .chats ul li .chat-avatar {
+        display: inline-block;
+        background: #bfbfbf;
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none; }
+      .chats ul li .content {
+        display: inline-block;
+        margin-left: 6px;
+        vertical-align: top;
+        line-height: 1; }
+        .chats ul li .content .chat-name {
+          display: block;
+          width: 100%;
+          margin-bottom: 5px;
+          color: #808080; }
+        .chats ul li .content .chat-message {
+          display: block;
+          width: 100%;
+          max-width: 200px;
+          margin-bottom: 5px;
+          color: #cccccc;
+          font-size: 12px; }
+
 /*# sourceMappingURL=mainpage.css.map */
