@@ -48,19 +48,15 @@
 
 <div class="chat-area">
   <div class="preview">Take a sneak peek of what the wyn.tech crew is chatting about!</div>
-  <div class="chat-header" ng-model="chatty" ng-click="chatty=!chatty">
+  <div class="chat-header">
     <h2>wyn.tech</h2>
-    <span class="chat-arrow">
-      <i ng-hide="chatty" class="fa fa-angle-down"></i>
-      <i ng-show="chatty" class="fa fa-angle-up"></i>
-    </span>
   </div>
   <div class="chats" id="current-chats" ng-hide="chatty">
     <ul>
       <li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">
       <span class="chat-avatar"></span>
       <div class="content">
-        <span class="chat-name">{{ message.username }}:</span>
+        <span class="chat-name">{{ message.username }}</span>
         <span class="chat-message">{{message.message}}</span>
       </div>
       </li>
