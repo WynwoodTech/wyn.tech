@@ -108,36 +108,6 @@ body {
     height: 275px;
     position: relative;
     margin: auto; }
-  .slack .invite-area {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 13px;
-    border-radius: 8px; }
-    .slack .invite-area .invite-text {
-      font-size: 20px; }
-    .slack .invite-area .action-button {
-      position: relative;
-      padding: 10px 40px;
-      border-radius: 10px;
-      font-size: 25px;
-      top: 25px;
-      color: #FFF;
-      text-decoration: none; }
-      .slack .invite-area .action-button:active {
-        transform: translate(0px, 5px);
-        -webkit-transform: translate(0px, 5px);
-        border-bottom: 1px solid #2980B9; }
-    .slack .invite-area .animate {
-      transition: all 0.1s;
-      -webkit-transition: all 0.1s; }
-    .slack .invite-area .blue {
-      background-color: #009CF3;
-      border-bottom: 5px solid #2980B9;
-      text-shadow: 0px -2px #2980B9; }
 
 .footer {
   background: #252525;
@@ -152,7 +122,7 @@ body {
     color: white; }
 
 .invite-area {
-  padding-top: 25px;
+  padding-top: 12em;
   padding-bottom: 50px;
   height: 250px; }
   .invite-area .button {
