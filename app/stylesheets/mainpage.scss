@@ -171,18 +171,6 @@ body {
 		font-size:22px;
 		color:white;
 	}
-	.footlinkarea{
-		padding-top:18px;
-		.footer-link{
-			font-size: 40px;
-			padding: 25px;
-			color: white;
-			&:hover{
-				color:#009CF3;
-			}
-		}
-	}
-
 }
 .invite-area{
 	padding-top: 25px;
@@ -338,3 +326,15 @@ body {
 		}
 	}
 }
+	.footlinkarea{
+		padding-top:18px;
+		.footer-link{
+			font-size: 40px;
+			padding: 25px;
+			color: white;
+			&:hover{
+				color:#009CF3;
+			}
+		}
+	}
+
