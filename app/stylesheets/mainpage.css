@@ -150,14 +150,6 @@ body {
     padding-top: 15px;
     font-size: 22px;
     color: white; }
-  .footer .footlinkarea {
-    padding-top: 18px; }
-    .footer .footlinkarea .footer-link {
-      font-size: 40px;
-      padding: 25px;
-      color: white; }
-      .footer .footlinkarea .footer-link:hover {
-        color: #009CF3; }
 
 .invite-area {
   padding-top: 25px;
@@ -234,7 +226,7 @@ body {
     text-align: center;
     margin: 0 auto;
     position: relative;
-    width: 450px;
+    width: 70%;
     height: 35px;
     line-height: 35px;
     border-radius: 25px; }
@@ -244,7 +236,7 @@ body {
       font-size: 14px; }
   .chat-area .chats {
     background: transparent;
-    width: 450px;
+    width: 70%;
     position: relative;
     margin: 0 auto; }
     .chat-area .chats .odd {
@@ -287,5 +279,14 @@ body {
             margin-bottom: 5px;
             color: #888;
             font-size: 12px; }
+
+.footlinkarea {
+  padding-top: 18px; }
+  .footlinkarea .footer-link {
+    font-size: 40px;
+    padding: 25px;
+    color: white; }
+    .footlinkarea .footer-link:hover {
+      color: #009CF3; }
 
 /*# sourceMappingURL=mainpage.css.map */
