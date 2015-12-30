@@ -2,8 +2,10 @@
   <a href="#" ><div class="logo" ng-click="scrollEvent('home-title')"></div></a>
   <div class="menu">
     <span class="nav-item"><a href="#" ng-click="scrollEvent('what-we-do')">What We Do</a></span>
-    <!-- span class="nav-item"><a href="#" ng-click="scrollEvent('events')">Events</a></span -->
     <span class="nav-item"><a href="#" ng-click="scrollEvent('join-slack')">Join Slack</a></span>
+    <span class="nav-item"><a href="#" ng-click="scrollEvent('affiliates')">Affiliates</a></span>
+    <span class="nav-item"><a href="#" ng-click="scrollEvent('current-members')">Members</a></span>
+    <!--<span class="nav-item"><a href="#" ng-click="scrollEvent('events')">Events</a></span>-->
   </div>
 </div>
 
@@ -62,19 +64,57 @@
 
 <div class="chat-area">
   <div class="preview">Take a sneak peek of what the wyn.tech crew is chatting about!</div>
-  <div class="chat-header">
-    <h2>wyn.tech</h2>
-  </div>
-  <div class="chats" id="current-chats" ng-hide="chatty">
-    <ul>
-      <li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">
-      <img src="{{message.avatar}}" class="chat-avatar" >
-      <div class="content">
-        <span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>
-        <span class="chat-message">{{message.message}}</span>
+  <div class="chat-wrapper">
+    <div class="chat-widget general">
+      <div class="chat-header">
+        <h2>#general</h2>
       </div>
-      </li>
-    </ul>
+      <div class="chats" id="current-chats" ng-hide="chatty">
+        <ul>
+          <li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">
+            <img src="{{message.avatar}}" class="chat-avatar" >
+            <div class="content">
+              <span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>
+              <span class="chat-message">{{message.message}}</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="chat-widget engineering">
+      <div class="chat-header">
+        <h2>#engineering</h2>
+      </div>
+      <div class="chats" id="current-chats" ng-hide="chatty">
+        <ul>
+          <li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">
+            <img src="{{message.avatar}}" class="chat-avatar" >
+            <div class="content">
+              <span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>
+              <span class="chat-message">{{message.message}}</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--<div class="chat-widget random">-->
+      <!--<div class="chat-header">-->
+        <!--<h2>#random</h2>-->
+      <!--</div>-->
+      <!--<div class="chats" id="current-chats" ng-hide="chatty">-->
+        <!--<ul>-->
+          <!--<li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">-->
+            <!--<img src="{{message.avatar}}" class="chat-avatar" >-->
+            <!--<div class="content">-->
+              <!--<span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>-->
+              <!--<span class="chat-message">{{message.message}}</span>-->
+            <!--</div>-->
+          <!--</li>-->
+        <!--</ul>-->
+      <!--</div>-->
+    <!--</div>-->
   </div>
 </div>
 
