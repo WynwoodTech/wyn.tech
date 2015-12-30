@@ -25,7 +25,7 @@ angular.module('WynTech.home', [])
       console.log(erroObject);
     });
 
-    engineeeringMessageRef.on("value", function(snapshot){
+    engineeringMessageRef.on("value", function(snapshot){
       console.log(snapshot.val());
     }, function (errorObject){
       console.log(erroObject);
@@ -33,7 +33,7 @@ angular.module('WynTech.home', [])
 
     $scope.randomMessages = $firebaseArray(randomMessageRef);
     $scope.generalMessages = $firebaseArray(generalMessageRef);
-    $scope.engineeringMessages = $firebaseArray(engineeringlMessageRef);
+    $scope.engineeringMessages = $firebaseArray(engineeringMessageRef);
 
     $scope.scrollEvent = function(id){
       var whatWeDoElement = angular.element(document.getElementById(id));
