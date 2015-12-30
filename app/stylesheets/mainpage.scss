@@ -259,13 +259,12 @@ body {
 	font-size: 16px;
 	text-align: center;
 	padding-bottom:40px;
-	width: 66%;
+	width: 75%;
 	margin: 0 auto;
 }
 .chat-area{
 	padding-top: 25px;
 	padding-bottom: 50px;
-	height: 450px;
 	.chat-header{
 		background: #009CF3;
 		color: #ffffff;
@@ -286,9 +285,7 @@ body {
 	.chats{
 		background: transparent;
 		width: 450px;
-		overflow-y: scroll;
 		position: relative;
-		max-height: 360px;
 		margin: 0 auto;
 		.odd{
 			background:#fff;
