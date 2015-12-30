@@ -9,7 +9,15 @@ angular.module('WynTech.home', [])
   var duration = 500;
   var offset = 50;
 
+  var randomMessageRef = new Firebase("https://wyntech.firebaseio.com/random");
   var generalMessageRef = new Firebase("https://wyntech.firebaseio.com/general");
+  var engineeringMessageRef = new Firebase("https://wyntech.firebaseio.com/engineering");
+
+    randomMessageRef.on("value", function(snapshot){
+      console.log(snapshot.val());
+    }, function (errorObject){
+      console.log(erroObject);
+    });
 
     generalMessageRef.on("value", function(snapshot){
       console.log(snapshot.val());
@@ -17,12 +25,20 @@ angular.module('WynTech.home', [])
       console.log(erroObject);
     });
 
+    engineeeringMessageRef.on("value", function(snapshot){
+      console.log(snapshot.val());
+    }, function (errorObject){
+      console.log(erroObject);
+    });
+
+    $scope.randomMessages = $firebaseArray(randomMessageRef);
+    $scope.generalMessages = $firebaseArray(generalMessageRef);
+    $scope.engineeringMessages = $firebaseArray(engineeringlMessageRef);
+
     $scope.scrollEvent = function(id){
       var whatWeDoElement = angular.element(document.getElementById(id));
       $document.scrollToElement(whatWeDoElement, offset, duration)
     };
-
-    $scope.generalMessages = $firebaseArray(generalMessageRef);
 
     $scope.master = {};
 
