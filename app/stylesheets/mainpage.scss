@@ -220,6 +220,7 @@ body {
 	width: 75%;
 	margin: 0 auto;
 }
+
 .chat-area{
 	padding-top: 25px;
 	padding-bottom: 50px;
@@ -228,9 +229,9 @@ body {
 		color: #ffffff;
 		font-size: 14px;
 		text-align: center;
-		margin: 0 auto;
+		margin: 0em;
 		position: relative;
-		width: 70%;
+		width: 100%;
 		height: 35px;
 		line-height: 35px;
 		border-radius:25px;
@@ -242,7 +243,7 @@ body {
 	}
 	.chats{
 		background: transparent;
-		width: 70%;
+		width: 100%;
 		position: relative;
 		margin: 0 auto;
 		.odd{
@@ -295,15 +296,29 @@ body {
 		}
 	}
 }
-	.footlinkarea{
-		padding-top:18px;
-		.footer-link{
-			font-size: 40px;
-			padding: 25px;
-			color: white;
-			&:hover{
-				color:#009CF3;
-			}
-		}
-	}
+
+.chat-wrapper{
+  overflow: auto;
+  display:table;
+  margin-left:auto;
+  margin-right:auto;
+
+  .chat-widget{
+    float: left;
+    margin:1em;
+    min-width:25em;
+  }
+}
+
+.footlinkarea{
+  padding-top:18px;
+  .footer-link{
+    font-size: 40px;
+    padding: 25px;
+    color: white;
+    &:hover{
+      color:#009CF3;
+    }
+  }
+}
 
