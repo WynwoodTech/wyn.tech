@@ -63,9 +63,10 @@ body {
 
 .header {
   display: block;
-  padding-top: 15px;
+  padding: 1em 0;
   font-size: 50px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  text-align: center; }
 
 .about {
   position: relative;
