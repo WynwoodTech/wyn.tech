@@ -273,7 +273,7 @@ body {
 		text-align: center;
 		margin: 0 auto;
 		position: relative;
-		width: 300px;
+		width: 450px;
 		height: 35px;
 		line-height: 35px;
 		border-radius:25px;
@@ -285,7 +285,7 @@ body {
 	}
 	.chats{
 		background: transparent;
-		width: 300px;
+		width: 450px;
 		overflow-y: scroll;
 		position: relative;
 		max-height: 360px;
@@ -310,10 +310,8 @@ body {
 				border-radius:50px;
 				.chat-avatar{
 					display: inline-block;
-					background: #009CF3;
 					width: 45px;
 					height: 45px;
-					color: #ffffff;
 					line-height: 50px;
 					text-align: center;
 					text-decoration: none;
@@ -328,7 +326,6 @@ body {
 						display: block;
 						width: 100%;
 						margin-bottom: 5px;
-						color: #111;
 					}	
 					.chat-message{
 						display: block;

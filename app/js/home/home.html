@@ -54,9 +54,9 @@
   <div class="chats" id="current-chats" ng-hide="chatty">
     <ul>
       <li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">
-      <span class="chat-avatar"></span>
+      <img src="{{message.avatar}}" class="chat-avatar" >
       <div class="content">
-        <span class="chat-name">{{ message.username }}</span>
+        <span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>
         <span class="chat-message">{{message.message}}</span>
       </div>
       </li>
