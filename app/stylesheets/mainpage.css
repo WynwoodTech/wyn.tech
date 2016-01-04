@@ -4,6 +4,29 @@ body {
   font-family: "Lato";
   margin: 0; }
 
+.preview {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 40px;
+  width: 75%;
+  margin: 0 auto; }
+
+.line {
+  background: white;
+  height: 6px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-top: 50px; }
+
+.header {
+  display: block;
+  padding: 1em 0;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center; }
+
 .nav-bar {
   background: black;
   position: fixed;
@@ -37,45 +60,30 @@ body {
         text-decoration: underline;
         color: white; }
 
-.container-title {
+.home-area {
   width: 100%;
   height: 100vh;
   text-align: center;
   position: relative;
   padding-top: 250px; }
-  .container-title .title {
+  .home-area .title {
     color: white;
     font-size: 80px;
     font-weight: bold; }
-  .container-title .sub-title {
+  .home-area .sub-title {
     font-size: 15px;
     color: white;
     display: block;
     padding-top: 20px; }
 
-.footlinkarea {
+.home-link-area {
   padding-top: 18px; }
-  .footlinkarea .footer-link {
+  .home-link-area .home-link {
     font-size: 40px;
     padding: 25px;
     color: white; }
-    .footlinkarea .footer-link:hover {
+    .home-link-area .home-link:hover {
       color: #009CF3; }
-
-.line {
-  background: white;
-  height: 6px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  margin-top: 50px; }
-
-.header {
-  display: block;
-  padding: 1em 0;
-  font-size: 50px;
-  font-weight: bolder;
-  text-align: center; }
 
 .about {
   position: relative;
@@ -118,30 +126,6 @@ body {
     position: relative;
     margin: auto; }
 
-.footer {
-  background: #252525;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  min-height: 150px;
-  text-align: center; }
-  .footer .footer-cta {
-    padding-top: 15px;
-    font-size: 20px;
-    color: white; }
-  .footer .footlinkarea {
-    padding-top: 10px; }
-    .footer .footlinkarea .footer-link {
-      font-size: 40px;
-      padding: 25px;
-      color: white; }
-      .footer .footlinkarea .footer-link:hover {
-        color: #009CF3; }
-  .footer .entity {
-    color: white;
-    padding-top: 15px;
-    font-size: 10px; }
-
 .invite-area {
   padding-top: 12em;
   padding-bottom: 50px;
@@ -177,7 +161,8 @@ body {
       margin: 0 auto; }
     .invite-area #login form {
       background: #252525;
-      padding: 6% 4%; }
+      padding: 6% 4%;
+      border-radius: 5px; }
       .invite-area #login form input[type="email"] {
         width: 92%;
         background: #fff;
@@ -199,86 +184,115 @@ body {
       .invite-area #login form input[type="submit"]:hover {
         background: #2288bb; }
 
-.preview {
-  color: white;
-  font-size: 16px;
-  text-align: center;
-  padding-bottom: 40px;
-  width: 75%;
-  margin: 0 auto; }
-
 .chat-area {
-  padding-top: 25px;
+  padding-top: 5em;
   padding-bottom: 50px; }
-  .chat-area .chat-header {
-    background: #009CF3;
-    color: #ffffff;
-    font-size: 14px;
-    text-align: center;
-    margin: 0em;
-    position: relative;
-    width: 100%;
-    height: 35px;
-    line-height: 35px;
-    border-radius: 25px; }
-    .chat-area .chat-header h2 {
-      margin: 0;
-      padding: 0;
-      font-size: 14px; }
-  .chat-area .chats {
-    background: transparent;
-    width: 100%;
-    position: relative;
-    margin: 0 auto; }
-    .chat-area .chats .odd {
-      background: #fff; }
-    .chat-area .chats .even {
-      background: #fff; }
-    .chat-area .chats ul {
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      .chat-area .chats ul li {
+  .chat-area .chat-wrapper {
+    overflow: auto;
+    display: table;
+    margin-left: auto;
+    margin-right: auto; }
+    .chat-area .chat-wrapper .chat-widget {
+      float: left;
+      margin: 1em;
+      min-width: 25em; }
+      .chat-area .chat-wrapper .chat-widget .chat-header {
+        background: #009CF3;
+        color: #ffffff;
+        font-size: 14px;
+        text-align: center;
+        margin: 0em;
         position: relative;
-        display: block;
         width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-        margin-top: 10px;
-        border-radius: 50px; }
-        .chat-area .chats ul li .chat-avatar {
-          display: inline-block;
-          width: 45px;
-          height: 45px;
-          line-height: 50px;
-          text-align: center;
-          text-decoration: none;
-          border-radius: 25px; }
-        .chat-area .chats ul li .content {
-          display: inline-block;
-          margin-left: 6px;
-          vertical-align: top;
-          line-height: 1; }
-          .chat-area .chats ul li .content .chat-name {
+        height: 35px;
+        line-height: 35px;
+        border-radius: 25px; }
+        .chat-area .chat-wrapper .chat-widget .chat-header h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 14px; }
+      .chat-area .chat-wrapper .chat-widget .chats {
+        background: transparent;
+        width: 100%;
+        position: relative;
+        margin: 0 auto; }
+        .chat-area .chat-wrapper .chat-widget .chats .odd {
+          background: #fff; }
+        .chat-area .chat-wrapper .chat-widget .chats .even {
+          background: #fff; }
+        .chat-area .chat-wrapper .chat-widget .chats ul {
+          list-style: none;
+          padding: 0;
+          margin: 0; }
+          .chat-area .chat-wrapper .chat-widget .chats ul li {
+            position: relative;
             display: block;
             width: 100%;
-            margin-bottom: 5px; }
-          .chat-area .chats ul li .content .chat-message {
-            display: block;
-            width: 100%;
-            max-width: 200px;
-            margin-bottom: 5px;
-            color: #888;
-            font-size: 12px; }
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            border-radius: 50px; }
+            .chat-area .chat-wrapper .chat-widget .chats ul li .chat-avatar {
+              display: inline-block;
+              width: 45px;
+              height: 45px;
+              line-height: 50px;
+              text-align: center;
+              text-decoration: none;
+              border-radius: 25px; }
+            .chat-area .chat-wrapper .chat-widget .chats ul li .content {
+              display: inline-block;
+              margin-left: 6px;
+              vertical-align: top;
+              line-height: 1; }
+              .chat-area .chat-wrapper .chat-widget .chats ul li .content .chat-name {
+                display: block;
+                width: 100%;
+                margin-bottom: 5px; }
+              .chat-area .chat-wrapper .chat-widget .chats ul li .content .chat-message {
+                display: block;
+                width: 100%;
+                max-width: 200px;
+                margin-bottom: 5px;
+                color: #888;
+                font-size: 12px; }
 
-.chat-wrapper {
-  overflow: auto;
-  display: table;
-  margin-left: auto;
-  margin-right: auto; }
-  .chat-wrapper .chat-widget {
-    float: left;
-    margin: 1em;
-    min-width: 25em; }
+.affiliates-area {
+  position: relative;
+  width: 70%;
+  min-height: 100vh;
+  margin: auto;
+  color: white;
+  padding-top: 5em; }
+  .affiliates-area .affiliate-logo-section .company-logo {
+    height: 200px;
+    width: 200px;
+    background: white;
+    display: inline-block;
+    margin: 5px; }
+
+.footer {
+  background: #252525;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  text-align: center; }
+  .footer .footer-cta {
+    padding-top: 15px;
+    font-size: 20px;
+    color: white; }
+  .footer .footlinkarea {
+    padding-top: 10px; }
+    .footer .footlinkarea .footer-link {
+      font-size: 40px;
+      padding: 25px;
+      color: white; }
+      .footer .footlinkarea .footer-link:hover {
+        color: #009CF3; }
+  .footer .entity {
+    color: white;
+    padding-top: 15px;
+    font-size: 10px; }
 
 /*# sourceMappingURL=mainpage.css.map */
