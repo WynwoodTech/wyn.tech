@@ -314,41 +314,44 @@ body {
 	padding-top: 5em;
 	text-align: center;
 	.affiliate-logo-section{
-		.company-logo{
-			height: 200px;
-			width: 200px;
-			background: white;
-			border-radius:5px;
-			display: inline-block;
-			margin: 5px;
-			position: relative;
-			text-align: left;
-			.logo{
-				background-repeat: no-repeat;
-				background-size: contain;
-				position:absolute;
-				width: 130px;
-				height: 130px;
-				left: 20%;
-				top: 10%;
-			}
-			#blubeta{
-				background-image: url("../images/blubeta.svg");
-			}
-			#fuegtees{
-				background-image: url("../images/FuegTees.jpg");
-			}
-			#blackbambu{
-				background-image: url("../images/blackbambu.png");
-				top:33%;
-			}
-			.company-name{
-				color: #252525;
-				position: absolute;
-				width: 100%;
-				text-align: center;
-				bottom: 15px;
-				font-size:20px;
+		a{
+			text-decoration:none;
+			.company-logo{
+				height: 200px;
+				width: 200px;
+				background: white;
+				border-radius:5px;
+				display: inline-block;
+				margin: 5px;
+				position: relative;
+				text-align: left;
+				.logo{
+					background-repeat: no-repeat;
+					background-size: contain;
+					position:absolute;
+					width: 130px;
+					height: 130px;
+					left: 20%;
+					top: 10%;
+				}
+				#blubeta{
+					background-image: url("../images/blubeta.svg");
+				}
+				#fuegtees{
+					background-image: url("../images/FuegTees.png");
+				}
+				#blackbambu{
+					background-image: url("../images/blackbambu.png");
+					top:33%;
+				}
+				.company-name{
+					color: #252525;
+					position: absolute;
+					width: 100%;
+					text-align: center;
+					bottom: 15px;
+					font-size:20px;
+				}
 			}
 		}
 	}
