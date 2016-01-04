@@ -263,13 +263,39 @@ body {
   min-height: 100vh;
   margin: auto;
   color: white;
-  padding-top: 5em; }
+  padding-top: 5em;
+  text-align: center; }
   .affiliates-area .affiliate-logo-section .company-logo {
     height: 200px;
     width: 200px;
     background: white;
+    border-radius: 5px;
     display: inline-block;
-    margin: 5px; }
+    margin: 5px;
+    position: relative;
+    text-align: left; }
+    .affiliates-area .affiliate-logo-section .company-logo .logo {
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      width: 130px;
+      height: 130px;
+      left: 20%;
+      top: 10%; }
+    .affiliates-area .affiliate-logo-section .company-logo #blubeta {
+      background-image: url("../images/blubeta.svg"); }
+    .affiliates-area .affiliate-logo-section .company-logo #fuegtees {
+      background-image: url("../images/FuegTees.jpg"); }
+    .affiliates-area .affiliate-logo-section .company-logo #blackbambu {
+      background-image: url("../images/blackbambu.png");
+      top: 33%; }
+    .affiliates-area .affiliate-logo-section .company-logo .company-name {
+      color: #252525;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      bottom: 15px;
+      font-size: 20px; }
 
 .footer {
   background: #252525;
