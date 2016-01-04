@@ -53,6 +53,15 @@ body {
     display: block;
     padding-top: 20px; }
 
+.footlinkarea {
+  padding-top: 18px; }
+  .footlinkarea .footer-link {
+    font-size: 40px;
+    padding: 25px;
+    color: white; }
+    .footlinkarea .footer-link:hover {
+      color: #009CF3; }
+
 .line {
   background: white;
   height: 6px;
@@ -118,8 +127,20 @@ body {
   text-align: center; }
   .footer .footer-cta {
     padding-top: 15px;
-    font-size: 22px;
+    font-size: 20px;
     color: white; }
+  .footer .footlinkarea {
+    padding-top: 10px; }
+    .footer .footlinkarea .footer-link {
+      font-size: 40px;
+      padding: 25px;
+      color: white; }
+      .footer .footlinkarea .footer-link:hover {
+        color: #009CF3; }
+  .footer .entity {
+    color: white;
+    padding-top: 15px;
+    font-size: 10px; }
 
 .invite-area {
   padding-top: 12em;
@@ -259,14 +280,5 @@ body {
     float: left;
     margin: 1em;
     min-width: 25em; }
-
-.footlinkarea {
-  padding-top: 18px; }
-  .footlinkarea .footer-link {
-    font-size: 40px;
-    padding: 25px;
-    color: white; }
-    .footlinkarea .footer-link:hover {
-      color: #009CF3; }
 
 /*# sourceMappingURL=mainpage.css.map */
