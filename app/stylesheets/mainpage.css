@@ -306,11 +306,24 @@ body {
   margin: auto;
   color: white;
   padding-top: 5em; }
-  .members-area .member-avatar {
-    background: white;
-    height: 50px;
-    width: 50px;
-    position: absolute; }
+  .members-area .member-info {
+    text-align: center;
+    width: 100px;
+    height: 95px; }
+    .members-area .member-info .member-avatar {
+      background: white;
+      height: 50px;
+      width: 50px;
+      position: relative;
+      display: inline-block;
+      border-radius: 5px; }
+    .members-area .member-info .member-username {
+      color: #252525;
+      background: white;
+      border-radius: 5px;
+      padding: 4px;
+      position: relative;
+      top: 10px; }
 
 .footer {
   background: #252525;
