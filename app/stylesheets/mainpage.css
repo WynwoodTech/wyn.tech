@@ -75,25 +75,16 @@ body {
     color: white;
     display: block;
     padding-top: 20px; }
-
-.home-link-area {
-  padding-top: 20px;
-  width: 70%;
-  margin: 0 auto; }
-  .home-link-area .fb-wrapper {
-    width: 160px;
-    position: relative;
-    display: inline-block;
-    text-align: right;
-    left: -9px;
-    top: 20px; }
-  .home-link-area .insta-wrapper {
-    width: 120px;
-    position: relative;
-    display: inline-block;
-    top: 20px;
-    left: 6px;
-    text-align: left; }
+  .home-area .home-link-area {
+    padding-top: 20px; }
+    .home-area .home-link-area .home-link {
+      font-size: 40px;
+      padding: 25px;
+      color: white; }
+      .home-area .home-link-area .home-link:hover {
+        color: #009CF3; }
+    .home-area .home-link-area .twitter-wrapper {
+      padding-top: 20px; }
 
 .about {
   position: relative;
