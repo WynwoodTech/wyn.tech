@@ -387,6 +387,42 @@ body {
 			top: 10px;
 		}
 	}
+	.language-wrapper{
+		.language-logo{
+			height: 100px;
+			width: 100px;
+			background: white;
+			border-radius:5px;
+			display: inline-block;
+			margin: 5px;
+			position: relative;
+			text-align: left;
+			.logo{
+				background-repeat: no-repeat;
+				background-size: contain;
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				left: 27%;
+				top: 17%;
+			}
+			.language-name{
+				color: #252525;
+				position: absolute;
+				width: 100%;
+				text-align: center;
+				bottom: 8px;
+				font-size:14px;
+			}
+			#ruby{
+				background-image: url("../images/ruby.png");
+				width: 100px;
+				height: 100px;
+				top: -12%;
+				left:0;
+			}
+		}
+	}
 }
 
 .footer{
