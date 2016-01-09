@@ -2,7 +2,7 @@
 
 angular.module('WynTech.home', [])
 
-.controller('HomeCtrl', ['$scope', '$document', '$firebaseArray', function($scope,$document, $firebaseArray){
+.controller('HomeCtrl', ['slackSvc', '$scope', '$document', '$firebaseArray', function(slackSvc, $scope,$document, $firebaseArray){
   console.log('HomeCtrl Loaded');
 
   var top = 0;
@@ -46,4 +46,9 @@ angular.module('WynTech.home', [])
       $scope.master = angular.copy(user);
       console.log($scope.master);
     };
+
+    slackSvc.getSlackMembers().success(function(resp){
+      $scope.slackMembers = resp;
+    });
+
 }]);

@@ -172,9 +172,9 @@
 <div class="members-area" id="current-members">
   <span class="line">
     <span class="header">Wynwood Tech's Members</span>
-    <div class="member-info">
-      <span class="member-avatar"></span>
-      <span class="member-username">@isaacito</span>
+    <div class="member-info" ng-repeat="member in slackMembers">
+      <span class="member-avatar"><img src="{{member.avatar}}" /></span>
+      <span class="member-username">{{member.username}}</span>
     </div>
   <div class="preview">Our members have experience in the following programming
     languages and frameworks!</div>
