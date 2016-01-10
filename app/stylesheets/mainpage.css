@@ -12,20 +12,13 @@ body {
   width: 70%;
   margin: 0 auto; }
 
-.line {
-  background: white;
-  height: 6px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  margin-top: 50px; }
-
 .header {
   display: block;
   padding: 1em 0;
   font-size: 50px;
   font-weight: bolder;
-  text-align: center; }
+  text-align: center;
+  border-top: 6px white solid; }
 
 .nav-bar {
   background: black;
@@ -65,7 +58,7 @@ body {
   height: 100vh;
   text-align: center;
   position: relative;
-  padding-top: 250px; }
+  padding-top: 150px; }
   .home-area .title {
     color: white;
     font-size: 80px;
@@ -84,7 +77,60 @@ body {
       .home-area .home-link-area .home-link:hover {
         color: #009CF3; }
     .home-area .home-link-area .twitter-wrapper {
-      padding-top: 20px; }
+      padding-top: 30px; }
+  .home-area .button {
+    width: 350px;
+    background: #009CF3;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s; }
+    .home-area .button:hover {
+      background: #2288bb; }
+  .home-area #login {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s; }
+    .home-area #login #triangle {
+      width: 0;
+      border-top: 12x solid transparent;
+      border-right: 12px solid transparent;
+      border-bottom: 12px solid #3399cc;
+      border-left: 12px solid transparent;
+      margin: 0 auto; }
+    .home-area #login form {
+      background: #252525;
+      padding: 6% 4%;
+      border-radius: 5px; }
+      .home-area #login form input[type="email"] {
+        width: 92%;
+        background: #fff;
+        margin-bottom: 4%;
+        border: 1px solid #ccc;
+        padding: 4%;
+        font-size: 95%;
+        color: #555; }
+      .home-area #login form input[type="submit"] {
+        width: 100%;
+        background: #009CF3;
+        border: 0;
+        padding: 4%;
+        font-size: 100%;
+        color: #fff;
+        cursor: pointer;
+        transition: background .3s;
+        -webkit-transition: background .3s; }
+      .home-area #login form input[type="submit"]:hover {
+        background: #2288bb; }
 
 .about {
   position: relative;
@@ -105,7 +151,8 @@ body {
     display: block;
     height: 350px;
     position: relative;
-    margin: auto; }
+    margin: auto;
+    margin-bottom: 5em; }
 
 .slack {
   position: relative;
@@ -125,7 +172,8 @@ body {
     display: block;
     height: 275px;
     position: relative;
-    margin: auto; }
+    margin: auto;
+    margin-bottom: 5em; }
 
 .invite-area {
   padding-top: 12em;
@@ -306,25 +354,29 @@ body {
   min-height: 100vh;
   margin: auto;
   color: white;
-  padding-top: 5em; }
+  padding-top: 5em;
+  text-align: center; }
   .members-area .member-info {
     text-align: center;
-    width: 65px;
-    height: 65px;
-    display: inline-block; }
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: visible;
+    word-wrap: break-word; }
     .members-area .member-info .member-avatar {
-      height: 50px;
-      width: 50px;
+      height: 70px;
+      width: 70px;
       position: relative;
       display: inline-block;
       border-radius: 5px; }
-    .members-area .member-info .member-username {
-      color: #252525;
-      background: white;
-      border-radius: 5px;
-      padding: 4px;
-      position: relative;
-      top: 10px; }
+  .members-area .username-area {
+    background: white;
+    border-radius: 5px;
+    padding: 3px; }
+    .members-area .username-area .member-username {
+      font-size: 12px;
+      font-weight: bold; }
 
 .language-wrapper {
   text-align: center;
@@ -377,7 +429,7 @@ body {
       width: 50px;
       height: 51px;
       top: 15%;
-      left: 26px; }
+      left: 31px; }
     .language-wrapper .language-logo #golang {
       background-image: url("../images/golang.png");
       width: 50px;

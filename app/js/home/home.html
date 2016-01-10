@@ -30,35 +30,53 @@
       </iframe>
     </div>
   </div>
+  <span href="#" class="button"  ng-model="collapsed"
+    ng-click="collapsed=!collapsed">Request Slack Invite</span>
+  <div id="login" ng-show="collapsed">
+    <div id="triangle"></div>
+    <!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup">
+      <form action="//tech.us12.list-manage.com/subscribe/post?u=b1c55a7a4265a724d4f5c44af&amp;id=8511e8757f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <div class="mc-field-group">
+            <input type="email" value="" name="EMAIL" class="required email"
+            id="mce-EMAIL" placeholder="Email">
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b1c55a7a4265a724d4f5c44af_8511e8757f" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
 
 <div class="about" id="what-we-do">
   <div class="laptop-image"></div>
-  <span class="line">
-    <span class="header">What We Do</span>
-    <span class="about-text">
-      <p>
-      Wynwood Tech brings passion and technology to Miami.  Our mission is to empower the South
-      Florida community by bringing like-minded
-      indivduals together and create awareness about Tech. 
-      Whether it is having events, or deep techincal
-      discussions on our slack channel, we are always focused on creating a buzz in Miami!
-      </p>
-    </span>
+  <span class="header">What We Do</span>
+  <span class="about-text">
+    <p>
+    Wynwood Tech brings passion and technology to Miami.  Our mission is to empower the South
+    Florida community by bringing like-minded
+    indivduals together and create awareness about Tech. 
+    Whether it is having events, or deep techincal
+    discussions on our slack channel, we are always focused on creating a buzz in Miami!
+    </p>
   </span>
 </div>
 
 <div class="slack" id="join-slack">
   <div class="slack-image"></div>
-  <span class="line">
-    <span class="header">Join Our Slack</span>
-    <span class="slack-text">
-      <p>
-      We are on Slack! If you have any interest being part of awesome discussions, request an invite to join our channel. 
-      Our Slack channel has some of the best engineers, busniess oriented people, and creatives in Miami!
-      </p>
-    </span>
+  <span class="header">Join Our Slack</span>
+  <span class="slack-text">
+    <p>
+    We are on Slack! If you have any interest being part of awesome discussions, request an invite to join our channel. 
+    Our Slack channel has some of the best engineers, busniess oriented people, and creatives in Miami!
+    </p>
   </span>
 </div>
 
@@ -86,7 +104,6 @@
       </form>
     </div>
   </div>
-
 </div>
 
 <div class="chat-area">
@@ -146,43 +163,42 @@
 </div>
 
 <div class="affiliates-area" id="affiliates">
-  <span class="line">
-    <span class="header">Companies We Love</span>
-    <a href="http://blubeta.com" target="_blank">
-      <div class="company-logo">
-        <span class="logo" id="blubeta"> </span>
-        <span class="company-name">Blubeta</span>
-      </div>
-    </a>
-    <a href="http://fuegtees.bigcartel.com" target="_blank">
-      <div class="company-logo">
-        <span class="logo" id="fuegtees"> </span>
-        <span class="company-name">Fueg Tees</span>
-      </div>
-    </a>
-    <a href="http://blackbambu.com" target="_blank">
-      <div class="company-logo">
-        <span class="logo" id="blackbambu"> </span>
-        <span class="company-name">Black Bambu</span>
-      </div>
-    </a>
-  </span>
+  <span class="header">Companies We Love</span>
+  <a href="http://blubeta.com" target="_blank">
+    <div class="company-logo">
+      <span class="logo" id="blubeta"> </span>
+      <span class="company-name">Blubeta</span>
+    </div>
+  </a>
+  <a href="http://fuegtees.bigcartel.com" target="_blank">
+    <div class="company-logo">
+      <span class="logo" id="fuegtees"> </span>
+      <span class="company-name">Fueg Tees</span>
+    </div>
+  </a>
+  <a href="http://blackbambu.com" target="_blank">
+    <div class="company-logo">
+      <span class="logo" id="blackbambu"> </span>
+      <span class="company-name">Black Bambu</span>
+    </div>
+  </a>
 </div>
 
 <div class="members-area" id="current-members">
-  <span class="line">
-    <span class="header">Wynwood Tech's Members</span>
-    <div class="member-info" ng-repeat="member in slackMembers">
-      <img class="member-avatar" src="{{member.avatar}}" />
+  <span class="header">Wynwood Tech's Members</span>
+  <div class="member-info" ng-repeat="member in slackMembers">
+    <img class="member-avatar" ng-mouseenter="show = true" ng-mouseleave="show = false" src="{{member.avatar}}" />
+    <div class="username-area" ng-show="show" >
+      <span class="member-username"  style="color:#{{member.color}}">{{member.username}}</span> 
     </div>
-  </span>
+  </div>
 </div>
 
-<div class="preview">Our members have experience in the following programming
-  languages, frameworks and other technologies!
-</div>
 
 <div class="language-wrapper">
+  <div class="preview">Our members have experience in the following programming
+    languages, frameworks and other technologies!
+  </div>
   <div class="language-logo">
     <span class="logo" id="adobe"> </span>
     <span class="language-name">Adobe</span>
@@ -239,7 +255,6 @@
     <span class="logo" id="wordpress"> </span>
     <span class="language-name">Wordpress</span>
   </div>
-
 </div>
 
 
@@ -253,5 +268,3 @@
   </div>
   <div class="entity">&copy; 2016, Wynwood Tech LLC.</div>
 </div>
-
-
