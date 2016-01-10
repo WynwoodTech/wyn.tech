@@ -414,12 +414,26 @@ body {
 				bottom: 8px;
 				font-size:14px;
 			}
+			#adobe{
+				background-image: url("../images/adobe.png");
+				width: 55px;
+				height: 100px;
+				top: 13%;
+				left: 23%;
+			}
 			#angular{
 				background-image: url("../images/angular.png");
 				width: 55px;
 				height: 100px;
 				top: 13%;
 				left: 23%;
+			}
+			#aws{
+				background-image: url("../images/aws.png");
+				width: 80px;
+				height: 100px;
+				top: 5%;
+				left: 10%;
 			}
 			#css3{
 				background-image: url("../images/css3.svg");
@@ -449,6 +463,20 @@ body {
 				top: 15%;
 				left: 26px;
 			}
+			#linux{
+				background-image: url("../images/linux.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 26px;
+			}
+			#node{
+				background-image: url("../images/node.png");
+				width: 90px;
+				height: 100px;
+				top: 30%;
+				left: 8px;
+			}
 			#php{
 				background-image: url("../images/php.png");
 				width: 80px;
@@ -468,6 +496,13 @@ body {
 				height: 100px;
 				top: -12%;
 				left:0;
+			}
+			#vim{
+				background-image: url("../images/vim.png");
+				width: 55px;
+				height: 55px;
+				top: 10%;
+				left: 23px;
 			}
 			#wordpress{
 				background-image: url("../images/wordpress.png");
