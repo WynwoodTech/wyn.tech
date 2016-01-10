@@ -325,113 +325,115 @@ body {
       padding: 4px;
       position: relative;
       top: 10px; }
-  .members-area .language-wrapper .language-logo {
-    height: 100px;
-    width: 100px;
-    background: white;
-    border-radius: 5px;
-    display: inline-block;
-    margin: 5px;
-    position: relative;
-    text-align: left; }
-    .members-area .language-wrapper .language-logo .logo {
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      left: 27%;
-      top: 17%; }
-    .members-area .language-wrapper .language-logo .language-name {
-      color: #252525;
-      position: absolute;
-      width: 100%;
-      text-align: center;
-      bottom: 8px;
-      font-size: 14px; }
-    .members-area .language-wrapper .language-logo #adobe {
-      background-image: url("../images/adobe.png");
-      width: 55px;
+  .members-area .language-wrapper {
+    text-align: center; }
+    .members-area .language-wrapper .language-logo {
       height: 100px;
-      top: 13%;
-      left: 23%; }
-    .members-area .language-wrapper .language-logo #angular {
-      background-image: url("../images/angular.png");
-      width: 55px;
-      height: 100px;
-      top: 13%;
-      left: 23%; }
-    .members-area .language-wrapper .language-logo #aws {
-      background-image: url("../images/aws.png");
-      width: 80px;
-      height: 100px;
-      top: 5%;
-      left: 10%; }
-    .members-area .language-wrapper .language-logo #css3 {
-      background-image: url("../images/css3.svg");
-      width: 50px;
-      height: 51px;
-      top: 15%;
-      left: 26px; }
-    .members-area .language-wrapper .language-logo #golang {
-      background-image: url("../images/golang.png");
-      width: 50px;
-      height: 51px;
-      top: 15%;
-      left: 26px; }
-    .members-area .language-wrapper .language-logo #html5 {
-      background-image: url("../images/HTML5.png");
-      width: 50px;
-      height: 51px;
-      top: 15%;
-      left: 26px; }
-    .members-area .language-wrapper .language-logo #javascript {
-      background-image: url("../images/javascript.png");
-      width: 50px;
-      height: 51px;
-      top: 15%;
-      left: 26px; }
-    .members-area .language-wrapper .language-logo #linux {
-      background-image: url("../images/linux.png");
-      width: 50px;
-      height: 51px;
-      top: 15%;
-      left: 26px; }
-    .members-area .language-wrapper .language-logo #node {
-      background-image: url("../images/node.png");
-      width: 90px;
-      height: 100px;
-      top: 30%;
-      left: 8px; }
-    .members-area .language-wrapper .language-logo #php {
-      background-image: url("../images/php.png");
-      width: 80px;
-      height: 100px;
-      top: 0%;
-      left: 10px; }
-    .members-area .language-wrapper .language-logo #rails {
-      background-image: url("../images/rails.png");
-      height: 55px;
-      top: 14%;
-      left: 25px; }
-    .members-area .language-wrapper .language-logo #ruby {
-      background-image: url("../images/ruby.png");
       width: 100px;
-      height: 100px;
-      top: -12%;
-      left: 0; }
-    .members-area .language-wrapper .language-logo #vim {
-      background-image: url("../images/vim.png");
-      width: 55px;
-      height: 55px;
-      top: 10%;
-      left: 23px; }
-    .members-area .language-wrapper .language-logo #wordpress {
-      background-image: url("../images/wordpress.png");
-      width: 55px;
-      height: 55px;
-      top: 10%;
-      left: 23px; }
+      background: white;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 5px;
+      position: relative;
+      text-align: left; }
+      .members-area .language-wrapper .language-logo .logo {
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 27%;
+        top: 17%; }
+      .members-area .language-wrapper .language-logo .language-name {
+        color: #252525;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: 8px;
+        font-size: 14px; }
+      .members-area .language-wrapper .language-logo #adobe {
+        background-image: url("../images/adobe.png");
+        width: 55px;
+        height: 100px;
+        top: 13%;
+        left: 23%; }
+      .members-area .language-wrapper .language-logo #angular {
+        background-image: url("../images/angular.png");
+        width: 55px;
+        height: 100px;
+        top: 13%;
+        left: 23%; }
+      .members-area .language-wrapper .language-logo #aws {
+        background-image: url("../images/aws.png");
+        width: 80px;
+        height: 100px;
+        top: 5%;
+        left: 10%; }
+      .members-area .language-wrapper .language-logo #css3 {
+        background-image: url("../images/css3.svg");
+        width: 50px;
+        height: 51px;
+        top: 15%;
+        left: 26px; }
+      .members-area .language-wrapper .language-logo #golang {
+        background-image: url("../images/golang.png");
+        width: 50px;
+        height: 51px;
+        top: 15%;
+        left: 26px; }
+      .members-area .language-wrapper .language-logo #html5 {
+        background-image: url("../images/HTML5.png");
+        width: 50px;
+        height: 51px;
+        top: 15%;
+        left: 26px; }
+      .members-area .language-wrapper .language-logo #javascript {
+        background-image: url("../images/javascript.png");
+        width: 50px;
+        height: 51px;
+        top: 15%;
+        left: 26px; }
+      .members-area .language-wrapper .language-logo #linux {
+        background-image: url("../images/linux.png");
+        width: 50px;
+        height: 51px;
+        top: 15%;
+        left: 26px; }
+      .members-area .language-wrapper .language-logo #node {
+        background-image: url("../images/node.png");
+        width: 90px;
+        height: 100px;
+        top: 30%;
+        left: 8px; }
+      .members-area .language-wrapper .language-logo #php {
+        background-image: url("../images/php.png");
+        width: 80px;
+        height: 100px;
+        top: 0%;
+        left: 10px; }
+      .members-area .language-wrapper .language-logo #rails {
+        background-image: url("../images/rails.png");
+        height: 55px;
+        top: 14%;
+        left: 25px; }
+      .members-area .language-wrapper .language-logo #ruby {
+        background-image: url("../images/ruby.png");
+        width: 100px;
+        height: 100px;
+        top: -12%;
+        left: 0; }
+      .members-area .language-wrapper .language-logo #vim {
+        background-image: url("../images/vim.png");
+        width: 55px;
+        height: 55px;
+        top: 10%;
+        left: 23px; }
+      .members-area .language-wrapper .language-logo #wordpress {
+        background-image: url("../images/wordpress.png");
+        width: 55px;
+        height: 55px;
+        top: 10%;
+        left: 23px; }
 
 .footer {
   background: #252525;
