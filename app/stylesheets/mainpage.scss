@@ -414,12 +414,67 @@ body {
 				bottom: 8px;
 				font-size:14px;
 			}
+			#angular{
+				background-image: url("../images/angular.png");
+				width: 55px;
+				height: 100px;
+				top: 13%;
+				left: 23%;
+			}
+			#css3{
+				background-image: url("../images/css3.svg");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 26px;
+			}
+			#golang{
+				background-image: url("../images/golang.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 26px;
+			}
+			#html5{
+				background-image: url("../images/HTML5.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 26px;
+			}
+			#javascript{
+				background-image: url("../images/javascript.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 26px;
+			}
+			#php{
+				background-image: url("../images/php.png");
+				width: 80px;
+				height: 100px;
+				top: 0%;
+				left: 10px;
+			}
+			#rails{
+				background-image: url("../images/rails.png");
+				height: 55px;
+				top: 14%;
+				left: 25px;
+			}
 			#ruby{
 				background-image: url("../images/ruby.png");
 				width: 100px;
 				height: 100px;
 				top: -12%;
 				left:0;
+			}
+			#wordpress{
+				background-image: url("../images/wordpress.png");
+				width: 55px;
+				height: 55px;
+				top: 10%;
+				left: 23px;
 			}
 		}
 	}

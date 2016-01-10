@@ -349,12 +349,59 @@ body {
       text-align: center;
       bottom: 8px;
       font-size: 14px; }
+    .members-area .language-wrapper .language-logo #angular {
+      background-image: url("../images/angular.png");
+      width: 55px;
+      height: 100px;
+      top: 13%;
+      left: 23%; }
+    .members-area .language-wrapper .language-logo #css3 {
+      background-image: url("../images/css3.svg");
+      width: 50px;
+      height: 51px;
+      top: 15%;
+      left: 26px; }
+    .members-area .language-wrapper .language-logo #golang {
+      background-image: url("../images/golang.png");
+      width: 50px;
+      height: 51px;
+      top: 15%;
+      left: 26px; }
+    .members-area .language-wrapper .language-logo #html5 {
+      background-image: url("../images/HTML5.png");
+      width: 50px;
+      height: 51px;
+      top: 15%;
+      left: 26px; }
+    .members-area .language-wrapper .language-logo #javascript {
+      background-image: url("../images/javascript.png");
+      width: 50px;
+      height: 51px;
+      top: 15%;
+      left: 26px; }
+    .members-area .language-wrapper .language-logo #php {
+      background-image: url("../images/php.png");
+      width: 80px;
+      height: 100px;
+      top: 0%;
+      left: 10px; }
+    .members-area .language-wrapper .language-logo #rails {
+      background-image: url("../images/rails.png");
+      height: 55px;
+      top: 14%;
+      left: 25px; }
     .members-area .language-wrapper .language-logo #ruby {
       background-image: url("../images/ruby.png");
       width: 100px;
       height: 100px;
       top: -12%;
       left: 0; }
+    .members-area .language-wrapper .language-logo #wordpress {
+      background-image: url("../images/wordpress.png");
+      width: 55px;
+      height: 55px;
+      top: 10%;
+      left: 23px; }
 
 .footer {
   background: #252525;
