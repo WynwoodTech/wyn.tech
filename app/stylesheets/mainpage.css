@@ -408,11 +408,7 @@ body {
     .language-wrapper .language-logo .logo {
       background-repeat: no-repeat;
       background-size: contain;
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      left: 27%;
-      top: 17%; }
+      position: absolute; }
     .language-wrapper .language-logo .language-name {
       color: #252525;
       position: absolute;
@@ -500,8 +496,15 @@ body {
       left: 10px; }
     .language-wrapper .language-logo #rails {
       background-image: url("../images/rails.png");
+      width: 50px;
       height: 55px;
       top: 14%;
+      left: 25px; }
+    .language-wrapper .language-logo #react {
+      background-image: url("../images/react.svg");
+      width: 50px;
+      height: 55px;
+      top: 17%;
       left: 25px; }
     .language-wrapper .language-logo #ruby {
       background-image: url("../images/ruby.png");
