@@ -403,6 +403,22 @@ body {
 				background-image: url("../images/blackbambu.png");
 				top:33%;
 			}
+			.mason-wrapper{
+				width: 187px;
+				position: absolute;
+				height: 44px;
+				top: 35%;
+				left: 7px;
+				background: #252525;
+				margin: 0 auto;
+				border-radius: 5px;
+				#mason{
+					background-image: url("../images/mason.png");
+					top: 40%;
+					width: 160px;
+					left: 13px;
+				}
+			}
 			.company-name{
 				color: #252525;
 				position: absolute;
@@ -501,12 +517,26 @@ body {
 			top: 5%;
 			left: 10%;
 		}
+		#chef{
+			background-image: url("../images/chef.png");
+			width: 50px;
+			height: 51px;
+			top: 15%;
+			left: 25px;
+		}
 		#css3{
 			background-image: url("../images/css3.svg");
 			width: 50px;
 			height: 51px;
 			top: 15%;
 			left: 31px;
+		}
+		#docker{
+			background-image: url("../images/docker.png");
+			width: 70px;
+			height: 70px;
+			top: 5%;
+			left: 16px;
 		}
 		#golang{
 			background-image: url("../images/golang.png");
@@ -562,6 +592,13 @@ body {
 			height: 100px;
 			top: -12%;
 			left:0;
+		}
+		#vagrant{
+			background-image: url("../images/vagrant.png");
+			width: 50px;
+			height: 50px;
+			top: 15%;
+			left: 23px;
 		}
 		#vim{
 			background-image: url("../images/vim.png");
