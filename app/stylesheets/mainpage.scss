@@ -404,11 +404,11 @@ body {
 				top:33%;
 			}
 			.mason-wrapper{
-				width: 187px;
+				width: 175px;
 				position: absolute;
 				height: 44px;
 				top: 35%;
-				left: 7px;
+				left: 13px;
 				background: #252525;
 				margin: 0 auto;
 				border-radius: 5px;
@@ -416,7 +416,7 @@ body {
 					background-image: url("../images/mason.png");
 					top: 40%;
 					width: 160px;
-					left: 13px;
+					left: 8px;
 				}
 			}
 			.company-name{
@@ -499,9 +499,9 @@ body {
 		#adobe{
 			background-image: url("../images/adobe.png");
 			width: 55px;
-			height: 100px;
-			top: 13%;
-			left: 23%;
+			height: 50px;
+			top: 20%;
+			left: 25%;
 		}
 		#angular{
 			background-image: url("../images/angular.png");
@@ -536,35 +536,42 @@ body {
 			width: 70px;
 			height: 70px;
 			top: 5%;
-			left: 16px;
+			left: 15px;
 		}
 		#golang{
 			background-image: url("../images/golang.png");
 			width: 50px;
 			height: 51px;
 			top: 15%;
-			left: 26px;
+			left: 25px;
+		}
+		#heroku{
+			background-image: url("../images/heroku.png");
+			width: 50px;
+			height: 51px;
+			top: 15%;
+			left: 25px;
 		}
 		#html5{
 			background-image: url("../images/HTML5.png");
 			width: 50px;
 			height: 51px;
 			top: 15%;
-			left: 26px;
+			left: 25px;
 		}
 		#javascript{
 			background-image: url("../images/javascript.png");
 			width: 50px;
 			height: 51px;
 			top: 15%;
-			left: 26px;
+			left: 25px;
 		}
 		#linux{
 			background-image: url("../images/linux.png");
 			width: 50px;
 			height: 51px;
 			top: 15%;
-			left: 26px;
+			left: 25px;
 		}
 		#node{
 			background-image: url("../images/node.png");
@@ -593,6 +600,13 @@ body {
 			top: -12%;
 			left:0;
 		}
+		#sass{
+			background-image: url("../images/sass.jpg");
+			width: 100px;
+			height: 57px;
+			top: 10%;
+			left: 0;
+		}
 		#vagrant{
 			background-image: url("../images/vagrant.png");
 			width: 50px;
@@ -612,7 +626,14 @@ body {
 			width: 55px;
 			height: 55px;
 			top: 10%;
-			left: 23px;
+			left: 22px;
+		}
+		#xcode{
+			background-image: url("../images/xcode.png");
+			width: 55px;
+			height: 55px;
+			top: 10%;
+			left: 22px;
 		}
 	}
 }
