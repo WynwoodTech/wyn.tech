@@ -30,8 +30,10 @@
       </iframe>
     </div>
   </div>
+
   <span href="#" class="button"  ng-model="collapsed"
     ng-click="collapsed=!collapsed">Request Slack Invite</span>
+
   <div id="login" ng-show="collapsed">
     <div id="triangle"></div>
     <!-- Begin MailChimp Signup Form -->
@@ -55,7 +57,7 @@
 </div>
 
 
-<div class="about" id="what-we-do">
+<div class="about wynwood" id="what-we-do">
   <div class="laptop-image"></div>
   <span class="header">What We Do</span>
   <span class="about-text">
@@ -69,7 +71,7 @@
   </span>
 </div>
 
-<div class="slack" id="join-slack">
+<div class="slack space" id="join-slack">
   <div class="slack-image"></div>
   <span class="header">Join Our Slack</span>
   <span class="slack-text">
@@ -80,7 +82,7 @@
   </span>
 </div>
 
-<div class="invite-area">
+<div class="invite-area wynwood">
   <div class="preview">Click below to get in the action!</div>
   <span href="#" class="button"  ng-model="collapsed"
     ng-click="collapsed=!collapsed">Request Slack Invite</span>
@@ -106,7 +108,7 @@
   </div>
 </div>
 
-<div class="chat-area">
+<div class="chat-area space">
   <div class="preview">Take a sneak peek of what the wyn.tech crew is chatting about!</div>
   <div class="chat-wrapper">
     <div class="chat-widget general">
@@ -115,7 +117,7 @@
       </div>
       <div class="chats" id="current-chats" ng-hide="chatty">
         <ul>
-          <li class="odd" ng-repeat="message in generalMessages | limitTo: -10" ng-class="{'even': $index%2==0}">
+          <li class="odd" ng-repeat="message in generalMessages | limitTo: -5" ng-class="{'even': $index%2==0}">
           <img src="{{message.avatar}}" class="chat-avatar" >
           <div class="content">
             <span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>
@@ -132,7 +134,7 @@
       </div>
       <div class="chats" id="current-chats" ng-hide="chatty">
         <ul>
-          <li class="odd" ng-repeat="message in engineeringMessages | limitTo: -10" ng-class="{'even': $index%2==0}">
+          <li class="odd" ng-repeat="message in engineeringMessages | limitTo: -5" ng-class="{'even': $index%2==0}">
           <img src="{{message.avatar}}" class="chat-avatar" >
           <div class="content">
             <span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>
@@ -162,7 +164,7 @@
   </div>
 </div>
 
-<div class="affiliates-area" id="affiliates">
+<div class="affiliates-area wynwood" id="affiliates">
   <span class="header">Companies We Love</span>
   <div class="company-wrapper">
     <a href="http://blubeta.com" target="_blank">
@@ -194,7 +196,7 @@
   </div>
 </div>
 
-<div class="members-area" id="current-members">
+<div class="members-area space" id="current-members">
   <span class="header">Wynwood Tech's Members</span>
   <div class="member-wrapper">
   <div class="member-info" ng-repeat="member in slackMembers">
@@ -207,7 +209,7 @@
 </div>
 
 
-<div class="language-area space">
+<div class="language-area wynwood">
   <div class="preview">Our members have experience in the following programming
     languages, frameworks and other technologies!
   </div>

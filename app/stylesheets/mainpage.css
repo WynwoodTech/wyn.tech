@@ -26,6 +26,10 @@ body {
   background: url("../images/banner.jpg") no-repeat center top fixed;
   background-size: cover; }
 
+.wynwood {
+  background: url("../images/tech.jpg") no-repeat center top fixed;
+  background-size: cover; }
+
 .nav-bar {
   background: black;
   position: fixed;
@@ -141,8 +145,8 @@ body {
 .about {
   position: relative;
   color: white;
-  padding-bottom: 5em;
-  padding-top: 5em; }
+  padding-top: 5em;
+  padding-bottom: 5em; }
   .about p {
     line-height: 2em;
     width: 70%;
@@ -154,7 +158,7 @@ body {
     background-position: 50% 50%;
     overflow: hidden;
     display: block;
-    height: 350px;
+    height: 300px;
     position: relative;
     margin: auto;
     margin-bottom: 5em; }
@@ -175,7 +179,7 @@ body {
     background-position: 50% 50%;
     overflow: hidden;
     display: block;
-    height: 275px;
+    height: 250px;
     position: relative;
     margin: auto;
     margin-bottom: 5em; }
@@ -240,7 +244,7 @@ body {
 
 .chat-area {
   padding-top: 5em;
-  padding-bottom: 50px; }
+  padding-bottom: 5em; }
   .chat-area .chat-wrapper {
     overflow: auto;
     display: table;
@@ -372,6 +376,7 @@ body {
   position: relative;
   color: white;
   padding-top: 5em;
+  padding-bottom: 5em;
   text-align: center; }
   .members-area .member-wrapper {
     width: 70%;
@@ -399,7 +404,8 @@ body {
         font-weight: bold; }
 
 .language-area {
-  text-align: center; }
+  text-align: center;
+  padding-top: 5em; }
   .language-area .language-wrapper {
     width: 70%;
     margin: 0 auto; }

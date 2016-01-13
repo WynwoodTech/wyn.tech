@@ -30,6 +30,10 @@ body {
 	background:url("../images/banner.jpg") no-repeat center top fixed; 
 	background-size: cover;
 }
+.wynwood{
+	background:url("../images/tech.jpg") no-repeat center top fixed; 
+	background-size: cover;
+}
 
 
 .nav-bar{
@@ -167,15 +171,15 @@ body {
 
 
 .about{
+	position: relative;
+	color:white;
+	padding-top:5em;
+	padding-bottom:5em;
 	p {
 		line-height: 2em;
 		width: 70%;
 		margin: 0 auto;
 	}
-	position: relative;
-	color:white;
-	padding-bottom: 5em;
-	padding-top:5em;
 	.laptop-image{
 		background-image: url("../images/lapcell.png");
 		background-repeat: no-repeat;
@@ -183,7 +187,7 @@ body {
 		background-position: 50% 50%;
 		overflow: hidden;
 		display: block;
-		height: 350px;
+		height: 300px;
 		position: relative;
 		margin: auto;
 		margin-bottom: 5em;
@@ -191,16 +195,14 @@ body {
 }
 
 .slack{
-	p {
-		line-height: 2em;
-		width: 70%;
-		margin: 0 auto;
-	}
 	position: relative;
 	color:white;
 	padding-top:5em;
 	padding-bottom:5em;
-	.slack-text{
+	p {
+		line-height: 2em;
+		width: 70%;
+		margin: 0 auto;
 	}
 	.slack-image{
 		background-image: url("../images/slack.png");
@@ -209,7 +211,7 @@ body {
 		background-position: 50% 50%;
 		overflow: hidden;
 		display: block;
-		height: 275px;
+		height: 250px;
 		position: relative;
 		margin: auto;
 		margin-bottom: 5em;
@@ -286,7 +288,7 @@ body {
 
 .chat-area{
 	padding-top: 5em;
-	padding-bottom: 50px;
+	padding-bottom:5em;
 	.chat-wrapper{
 		overflow: auto;
 		display:table;
@@ -376,7 +378,7 @@ body {
 	position: relative;
 	color: white;
 	padding-top: 5em;
-	padding-bottom: 5em;
+	padding-bottom:5em;
 	text-align: center;
 	.company-wrapper{
 		width: 70%;
@@ -444,6 +446,7 @@ body {
 	position: relative;
 	color: white;
 	padding-top: 5em;
+	padding-bottom: 5em;
 	text-align: center;
 	.member-wrapper{
 		width: 70%;
@@ -478,6 +481,7 @@ body {
 
 .language-area{
 	text-align:center;
+	padding-top:5em;
 	.language-wrapper{
 		width: 70%;
 		margin: 0 auto;
