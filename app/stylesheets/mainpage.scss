@@ -23,6 +23,11 @@ body {
 	text-align:center;
 	border-top: 6px white solid;
 }
+.space{
+	background:url("../images/banner.jpg") no-repeat center top fixed; 
+  background-size: cover;
+}
+
 
 .nav-bar{
 	background: black;
@@ -672,3 +677,13 @@ body {
 		font-size:10px;
 	}
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+		.chat-widget{
+			float:none !important;
+		}
+	}
