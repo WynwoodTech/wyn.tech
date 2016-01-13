@@ -9,7 +9,7 @@
   </div>
 </div>
 
-<div class="home-area" id='home-title'>
+<div class="home-area space" id='home-title'>
   <span class="title">Wynwood Tech</span>
   <span class="sub-title">Bringing South Florida together
     through technology!</span>
@@ -115,7 +115,7 @@
       </div>
       <div class="chats" id="current-chats" ng-hide="chatty">
         <ul>
-          <li class="odd" ng-repeat="message in generalMessages" ng-class="{'even': $index%2==0}">
+          <li class="odd" ng-repeat="message in generalMessages | limitTo: -10" ng-class="{'even': $index%2==0}">
           <img src="{{message.avatar}}" class="chat-avatar" >
           <div class="content">
             <span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>
@@ -132,7 +132,7 @@
       </div>
       <div class="chats" id="current-chats" ng-hide="chatty">
         <ul>
-          <li class="odd" ng-repeat="message in engineeringMessages" ng-class="{'even': $index%2==0}">
+          <li class="odd" ng-repeat="message in engineeringMessages | limitTo: -10" ng-class="{'even': $index%2==0}">
           <img src="{{message.avatar}}" class="chat-avatar" >
           <div class="content">
             <span class="chat-name" style="color:#{{message.color}}">{{ message.username }}</span>
@@ -164,49 +164,54 @@
 
 <div class="affiliates-area" id="affiliates">
   <span class="header">Companies We Love</span>
-  <a href="http://blubeta.com" target="_blank">
-    <div class="company-logo">
-      <span class="logo" id="blubeta"> </span>
-      <span class="company-name">Blubeta</span>
-    </div>
-  </a>
-  <a href="http://fuegtees.bigcartel.com" target="_blank">
-    <div class="company-logo">
-      <span class="logo" id="fuegtees"> </span>
-      <span class="company-name">Fueg Tees</span>
-    </div>
-  </a>
-  <a href="http://blackbambu.com" target="_blank">
-    <div class="company-logo">
-      <span class="logo" id="blackbambu"> </span>
-      <span class="company-name">Black Bambu</span>
-    </div>
-  </a>
-  <a href="http://msnmsn.co" target="_blank">
-    <div class="company-logo">
-      <span class=mason-wrapper>
-        <span class="logo" id="mason"> </span>
+  <div class="company-wrapper">
+    <a href="http://blubeta.com" target="_blank">
+      <div class="company-logo">
+        <span class="logo" id="blubeta"> </span>
+        <span class="company-name">Blubeta</span>
+      </div>
+    </a>
+    <a href="http://fuegtees.bigcartel.com" target="_blank">
+      <div class="company-logo">
+        <span class="logo" id="fuegtees"> </span>
+        <span class="company-name">Fueg Tees</span>
+      </div>
+    </a>
+    <a href="http://blackbambu.com" target="_blank">
+      <div class="company-logo">
+        <span class="logo" id="blackbambu"> </span>
+        <span class="company-name">Black Bambu</span>
+      </div>
+    </a>
+    <a href="http://msnmsn.co" target="_blank">
+      <div class="company-logo">
+        <span class=mason-wrapper>
+          <span class="logo" id="mason"> </span>
         </span>
-      <span class="company-name">Maison Mason</span>
-    </div>
-  </a>
+        <span class="company-name">Maison Mason</span>
+      </div>
+    </a>
+  </div>
 </div>
 
 <div class="members-area" id="current-members">
   <span class="header">Wynwood Tech's Members</span>
+  <div class="member-wrapper">
   <div class="member-info" ng-repeat="member in slackMembers">
     <img class="member-avatar" ng-mouseenter="show = true" ng-mouseleave="show = false" src="{{member.avatar}}" />
     <div class="username-area" ng-show="show" >
       <span class="member-username"  style="color:#{{member.color}}">{{member.username}}</span> 
     </div>
+    </div>
   </div>
 </div>
 
 
-<div class="language-wrapper">
+<div class="language-area space">
   <div class="preview">Our members have experience in the following programming
     languages, frameworks and other technologies!
   </div>
+  <div class="language-wrapper">
   <div class="language-logo">
     <span class="logo" id="adobe"> </span>
     <span class="language-name">Adobe</span>

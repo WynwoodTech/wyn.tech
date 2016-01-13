@@ -22,10 +22,13 @@ body {
 	font-weight: bolder;
 	text-align:center;
 	border-top: 6px white solid;
+	width: 70%;
+	margin: 0 auto;
 }
+
 .space{
 	background:url("../images/banner.jpg") no-repeat center top fixed; 
-  background-size: cover;
+	background-size: cover;
 }
 
 
@@ -166,14 +169,13 @@ body {
 .about{
 	p {
 		line-height: 2em;
+		width: 70%;
+		margin: 0 auto;
 	}
 	position: relative;
-	width: 70%;
-	min-height: 100vh;
-	margin: auto;
 	color:white;
-	margin-bottom: 30vh;
-	padding-top:25px;
+	padding-bottom: 5em;
+	padding-top:5em;
 	.laptop-image{
 		background-image: url("../images/lapcell.png");
 		background-repeat: no-repeat;
@@ -191,13 +193,13 @@ body {
 .slack{
 	p {
 		line-height: 2em;
+		width: 70%;
+		margin: 0 auto;
 	}
 	position: relative;
-	width: 70%;
-	min-height: 75vh;
-	margin: auto;
 	color:white;
-	padding-top:25px;
+	padding-top:5em;
+	padding-bottom:5em;
 	.slack-text{
 	}
 	.slack-image{
@@ -216,8 +218,8 @@ body {
 
 
 .invite-area{
-	padding-top: 12em;
-	padding-bottom: 50px;
+	padding-top: 5em;
+	padding-bottom: 5em;
 	height: 250px;
 	.button{
 		width:350px;
@@ -372,17 +374,116 @@ body {
 
 .affiliates-area{
 	position: relative;
-	width: 70%;
-	min-height: 100vh;
-	margin: auto;
+	color: white;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	text-align: center;
+	.company-wrapper{
+		width: 70%;
+		margin: 0 auto;
+		a{
+			text-decoration:none;
+			.company-logo{
+				height: 200px;
+				width: 200px;
+				background: white;
+				border-radius:5px;
+				display: inline-block;
+				margin: 5px;
+				position: relative;
+				text-align: left;
+				.logo{
+					background-repeat: no-repeat;
+					background-size: contain;
+					position:absolute;
+					width: 130px;
+					height: 130px;
+					left: 20%;
+					top: 10%;
+				}
+				#blubeta{
+					background-image: url("../images/blubeta.svg");
+				}
+				#fuegtees{
+					background-image: url("../images/FuegTees.png");
+				}
+				#blackbambu{
+					background-image: url("../images/blackbambu.png");
+					top:33%;
+				}
+				.mason-wrapper{
+					width: 175px;
+					position: absolute;
+					height: 44px;
+					top: 35%;
+					left: 13px;
+					background: #252525;
+					margin: 0 auto;
+					border-radius: 5px;
+					#mason{
+						background-image: url("../images/mason.png");
+						top: 40%;
+						width: 160px;
+						left: 8px;
+					}
+				}
+				.company-name{
+					color: #252525;
+					position: absolute;
+					width: 100%;
+					text-align: center;
+					bottom: 15px;
+					font-size:20px;
+				}
+			}
+		}
+	}
+}
+
+.members-area{
+	position: relative;
 	color: white;
 	padding-top: 5em;
 	text-align: center;
-	a{
-		text-decoration:none;
-		.company-logo{
-			height: 200px;
-			width: 200px;
+	.member-wrapper{
+		width: 70%;
+		margin: 0 auto;
+		.member-info{
+			text-align: center;
+			width: 100px;
+			height: 120px;
+			display: inline-block;
+			overflow-y: auto;
+			overflow-x: visible;
+			word-wrap: break-word;
+			.member-avatar{
+				height:70px;
+				width:70px;
+				position: relative;
+				display: inline-block;
+				border-radius: 5px;
+			}
+		}
+		.username-area{
+			background:white;
+			border-radius: 5px;
+			padding:3px;
+			.member-username{
+				font-size:12px;
+				font-weight:bold;
+			}
+		}
+	}
+}
+
+.language-area{
+	text-align:center;
+	.language-wrapper{
+		width: 70%;
+		margin: 0 auto;
+		.language-logo{
+			height: 100px;
+			width: 100px;
 			background: white;
 			border-radius:5px;
 			display: inline-block;
@@ -392,257 +493,163 @@ body {
 			.logo{
 				background-repeat: no-repeat;
 				background-size: contain;
-				position:absolute;
-				width: 130px;
-				height: 130px;
-				left: 20%;
-				top: 10%;
-			}
-			#blubeta{
-				background-image: url("../images/blubeta.svg");
-			}
-			#fuegtees{
-				background-image: url("../images/FuegTees.png");
-			}
-			#blackbambu{
-				background-image: url("../images/blackbambu.png");
-				top:33%;
-			}
-			.mason-wrapper{
-				width: 175px;
 				position: absolute;
-				height: 44px;
-				top: 35%;
-				left: 13px;
-				background: #252525;
-				margin: 0 auto;
-				border-radius: 5px;
-				#mason{
-					background-image: url("../images/mason.png");
-					top: 40%;
-					width: 160px;
-					left: 8px;
-				}
 			}
-			.company-name{
+			.language-name{
 				color: #252525;
 				position: absolute;
 				width: 100%;
 				text-align: center;
-				bottom: 15px;
-				font-size:20px;
+				bottom: 8px;
+				font-size:14px;
 			}
-		}
-	}
-}
-
-.members-area{
-	position: relative;
-	width: 70%;
-	min-height: 100vh;
-	margin: auto;
-	color: white;
-	padding-top: 5em;
-	text-align: center;
-	.member-info{
-		text-align: center;
-		width: 100px;
-		height: 120px;
-		display: inline-block;
-		overflow-y: auto;
-		overflow-x: visible;
-		word-wrap: break-word;
-		.member-avatar{
-			height:70px;
-			width:70px;
-			position: relative;
-			display: inline-block;
-			border-radius: 5px;
-		}
-	}
-	.username-area{
-		background:white;
-		border-radius: 5px;
-		padding:3px;
-		.member-username{
-			font-size:12px;
-			font-weight:bold;
-		}
-	}
-}
-
-.language-wrapper{
-	text-align:center;
-	width: 70%;
-	margin: 0 auto;
-	.language-logo{
-		height: 100px;
-		width: 100px;
-		background: white;
-		border-radius:5px;
-		display: inline-block;
-		margin: 5px;
-		position: relative;
-		text-align: left;
-		.logo{
-			background-repeat: no-repeat;
-			background-size: contain;
-			position: absolute;
-		}
-		.language-name{
-			color: #252525;
-			position: absolute;
-			width: 100%;
-			text-align: center;
-			bottom: 8px;
-			font-size:14px;
-		}
-		#adobe{
-			background-image: url("../images/adobe.png");
-			width: 55px;
-			height: 50px;
-			top: 20%;
-			left: 25%;
-		}
-		#angular{
-			background-image: url("../images/angular.png");
-			width: 55px;
-			height: 100px;
-			top: 13%;
-			left: 23%;
-		}
-		#aws{
-			background-image: url("../images/aws.png");
-			width: 80px;
-			height: 100px;
-			top: 5%;
-			left: 10%;
-		}
-		#chef{
-			background-image: url("../images/chef.png");
-			width: 50px;
-			height: 51px;
-			top: 15%;
-			left: 25px;
-		}
-		#css3{
-			background-image: url("../images/css3.svg");
-			width: 50px;
-			height: 51px;
-			top: 15%;
-			left: 31px;
-		}
-		#docker{
-			background-image: url("../images/docker.png");
-			width: 70px;
-			height: 70px;
-			top: 5%;
-			left: 15px;
-		}
-		#golang{
-			background-image: url("../images/golang.png");
-			width: 50px;
-			height: 51px;
-			top: 15%;
-			left: 25px;
-		}
-		#heroku{
-			background-image: url("../images/heroku.png");
-			width: 50px;
-			height: 51px;
-			top: 15%;
-			left: 25px;
-		}
-		#html5{
-			background-image: url("../images/HTML5.png");
-			width: 50px;
-			height: 51px;
-			top: 15%;
-			left: 25px;
-		}
-		#javascript{
-			background-image: url("../images/javascript.png");
-			width: 50px;
-			height: 51px;
-			top: 15%;
-			left: 25px;
-		}
-		#linux{
-			background-image: url("../images/linux.png");
-			width: 50px;
-			height: 51px;
-			top: 15%;
-			left: 25px;
-		}
-		#node{
-			background-image: url("../images/node.png");
-			width: 90px;
-			height: 100px;
-			top: 30%;
-			left: 8px;
-		}
-		#php{
-			background-image: url("../images/php.png");
-			width: 80px;
-			height: 100px;
-			top: 0%;
-			left: 10px;
-		}
-		#rails{
-			background-image: url("../images/rails.png");
-			width:50px;
-			height: 55px;
-			top: 14%;
-			left: 25px;
-		}
-		#react{
-			background-image: url("../images/react.svg");
-			width:50px;
-			height: 55px;
-			top: 17%;
-			left: 25px;
-		}
-		#ruby{
-			background-image: url("../images/ruby.png");
-			width: 100px;
-			height: 100px;
-			top: -12%;
-			left:0;
-		}
-		#sass{
-			background-image: url("../images/sass.jpg");
-			width: 100px;
-			height: 57px;
-			top: 10%;
-			left: 0;
-		}
-		#vagrant{
-			background-image: url("../images/vagrant.png");
-			width: 50px;
-			height: 50px;
-			top: 15%;
-			left: 23px;
-		}
-		#vim{
-			background-image: url("../images/vim.png");
-			width: 55px;
-			height: 55px;
-			top: 10%;
-			left: 23px;
-		}
-		#wordpress{
-			background-image: url("../images/wordpress.png");
-			width: 55px;
-			height: 55px;
-			top: 10%;
-			left: 22px;
-		}
-		#xcode{
-			background-image: url("../images/xcode.png");
-			width: 55px;
-			height: 55px;
-			top: 10%;
-			left: 22px;
+			#adobe{
+				background-image: url("../images/adobe.png");
+				width: 55px;
+				height: 50px;
+				top: 20%;
+				left: 25%;
+			}
+			#angular{
+				background-image: url("../images/angular.png");
+				width: 55px;
+				height: 100px;
+				top: 13%;
+				left: 23%;
+			}
+			#aws{
+				background-image: url("../images/aws.png");
+				width: 80px;
+				height: 100px;
+				top: 5%;
+				left: 10%;
+			}
+			#chef{
+				background-image: url("../images/chef.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 25px;
+			}
+			#css3{
+				background-image: url("../images/css3.svg");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 31px;
+			}
+			#docker{
+				background-image: url("../images/docker.png");
+				width: 70px;
+				height: 70px;
+				top: 5%;
+				left: 15px;
+			}
+			#golang{
+				background-image: url("../images/golang.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 25px;
+			}
+			#heroku{
+				background-image: url("../images/heroku.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 25px;
+			}
+			#html5{
+				background-image: url("../images/HTML5.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 25px;
+			}
+			#javascript{
+				background-image: url("../images/javascript.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 25px;
+			}
+			#linux{
+				background-image: url("../images/linux.png");
+				width: 50px;
+				height: 51px;
+				top: 15%;
+				left: 25px;
+			}
+			#node{
+				background-image: url("../images/node.png");
+				width: 90px;
+				height: 100px;
+				top: 30%;
+				left: 8px;
+			}
+			#php{
+				background-image: url("../images/php.png");
+				width: 80px;
+				height: 100px;
+				top: 0%;
+				left: 10px;
+			}
+			#rails{
+				background-image: url("../images/rails.png");
+				width:50px;
+				height: 55px;
+				top: 14%;
+				left: 25px;
+			}
+			#react{
+				background-image: url("../images/react.svg");
+				width:50px;
+				height: 55px;
+				top: 17%;
+				left: 25px;
+			}
+			#ruby{
+				background-image: url("../images/ruby.png");
+				width: 100px;
+				height: 100px;
+				top: -12%;
+				left:0;
+			}
+			#sass{
+				background-image: url("../images/sass.jpg");
+				width: 100px;
+				height: 57px;
+				top: 10%;
+				left: 0;
+			}
+			#vagrant{
+				background-image: url("../images/vagrant.png");
+				width: 50px;
+				height: 50px;
+				top: 15%;
+				left: 23px;
+			}
+			#vim{
+				background-image: url("../images/vim.png");
+				width: 55px;
+				height: 55px;
+				top: 10%;
+				left: 23px;
+			}
+			#wordpress{
+				background-image: url("../images/wordpress.png");
+				width: 55px;
+				height: 55px;
+				top: 10%;
+				left: 22px;
+			}
+			#xcode{
+				background-image: url("../images/xcode.png");
+				width: 55px;
+				height: 55px;
+				top: 10%;
+				left: 22px;
+			}
 		}
 	}
 }
@@ -679,11 +686,11 @@ body {
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
 
-		.chat-widget{
-			float:none !important;
-		}
+	.chat-widget{
+		float:none !important;
 	}
+}
