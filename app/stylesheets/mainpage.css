@@ -6,7 +6,7 @@ body {
 
 .preview {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   padding-bottom: 40px;
   width: 70%;
@@ -120,7 +120,8 @@ body {
     .home-area #login form {
       background: #252525;
       padding: 6% 4%;
-      border-radius: 5px; }
+      border-radius: 5px;
+      border: 1px solid #fff; }
       .home-area #login form input[type="email"] {
         width: 92%;
         background: #fff;
@@ -220,7 +221,8 @@ body {
     .invite-area #login form {
       background: #252525;
       padding: 6% 4%;
-      border-radius: 5px; }
+      border-radius: 5px;
+      border: 1px solid #fff; }
       .invite-area #login form input[type="email"] {
         width: 92%;
         background: #fff;
