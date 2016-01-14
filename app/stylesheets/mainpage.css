@@ -352,6 +352,8 @@ body {
         .affiliates-area .company-wrapper a .company-logo #blackbambu {
           background-image: url("../images/blackbambu.png");
           top: 33%; }
+        .affiliates-area .company-wrapper a .company-logo #dptm {
+          background-image: url("../images/dptm.png"); }
         .affiliates-area .company-wrapper a .company-logo .mason-wrapper {
           width: 175px;
           position: absolute;
