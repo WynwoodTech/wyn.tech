@@ -354,6 +354,10 @@ body {
           top: 33%; }
         .affiliates-area .company-wrapper a .company-logo #dptm {
           background-image: url("../images/dptm.png"); }
+        .affiliates-area .company-wrapper a .company-logo #vsm {
+          background-image: url("../images/vsm.png");
+          left: 30px;
+          top: 35px; }
         .affiliates-area .company-wrapper a .company-logo #sidegram {
           background-image: url("../images/sidegram.png");
           height: 90px;
