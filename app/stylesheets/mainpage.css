@@ -354,6 +354,13 @@ body {
           top: 33%; }
         .affiliates-area .company-wrapper a .company-logo #dptm {
           background-image: url("../images/dptm.png"); }
+        .affiliates-area .company-wrapper a .company-logo #sidegram {
+          background-image: url("../images/sidegram.png");
+          height: 90px;
+          width: 90px;
+          border-radius: 10px;
+          left: 55px;
+          top: 40px; }
         .affiliates-area .company-wrapper a .company-logo #morphic {
           background-image: url("../images/morphic.png");
           top: 40px;
