@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: black;
   height: 100%;
   font-family: "Lato";
   margin: 0; }
@@ -354,6 +354,12 @@ body {
           top: 33%; }
         .affiliates-area .company-wrapper a .company-logo #dptm {
           background-image: url("../images/dptm.png"); }
+        .affiliates-area .company-wrapper a .company-logo #morphic {
+          background-image: url("../images/morphic.png");
+          top: 40px;
+          width: 150px;
+          height: 150px;
+          left: 13%; }
         .affiliates-area .company-wrapper a .company-logo .mason-wrapper {
           width: 175px;
           position: absolute;
