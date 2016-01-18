@@ -7,7 +7,7 @@
     "isaac <isaacito>",
     "Daniel <dseravalli>"
   ],
-  "install":{
+  "install": {
     "path": "app/bower_components"
   },
   "description": "Wynwood Tech Website - Bower Dependencies",
@@ -24,6 +24,7 @@
   ],
   "dependencies": {
     "angular": "~1.4.8",
-    "angular-scroll": "~1.0.0"
+    "angular-scroll": "~1.0.0",
+    "angular-google-analytics": "~1.1.5"
   }
 }
