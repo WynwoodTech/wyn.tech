@@ -354,6 +354,10 @@ body {
           top: 33%; }
         .affiliates-area .company-wrapper a .company-logo #dptm {
           background-image: url("../images/dptm.png"); }
+        .affiliates-area .company-wrapper a .company-logo #taptl {
+          background-image: url("../images/taptl.png");
+          top: 18%;
+          left: 16%; }
         .affiliates-area .company-wrapper a .company-logo #healthsnap {
           background-image: url("../images/healthsnap.png");
           width: 150px;
