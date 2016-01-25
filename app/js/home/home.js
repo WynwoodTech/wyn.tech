@@ -9,46 +9,54 @@ angular.module('WynTech.home', [])
   var duration = 500;
   var offset = 50;
 
-  var randomMessageRef = new Firebase("https://wyntech.firebaseio.com/random");
+  var messageCounterRef = new Firebase("https://wyntech.firebaseio.com/message-counter");
+
+  var randomMessageRef  = new Firebase("https://wyntech.firebaseio.com/random");
   var generalMessageRef = new Firebase("https://wyntech.firebaseio.com/general");
   var engineeringMessageRef = new Firebase("https://wyntech.firebaseio.com/engineering");
 
-    randomMessageRef.on("value", function(snapshot){
-      console.log(snapshot.val());
-    }, function (errorObject){
-      console.log(erroObject);
-    });
+  messageCounterRef.on("value", function(snapshot){
+    $scope.messageCounter = snapshot.val();
+  }, function (errorObject){
+    console.log(errorObject);
+  });
 
-    generalMessageRef.on("value", function(snapshot){
-      console.log(snapshot.val());
-    }, function (errorObject){
-      console.log(erroObject);
-    });
+  randomMessageRef.on("value", function(snapshot){
+    console.log(snapshot.val());
+  }, function (errorObject){
+    console.log(errorObject);
+  });
 
-    engineeringMessageRef.on("value", function(snapshot){
-      console.log(snapshot.val());
-    }, function (errorObject){
-      console.log(erroObject);
-    });
+  generalMessageRef.on("value", function(snapshot){
+    console.log(snapshot.val());
+  }, function (errorObject){
+    console.log(errorObject);
+  });
 
-    $scope.randomMessages = $firebaseArray(randomMessageRef);
-    $scope.generalMessages = $firebaseArray(generalMessageRef);
-    $scope.engineeringMessages = $firebaseArray(engineeringMessageRef);
+  engineeringMessageRef.on("value", function(snapshot){
+    console.log(snapshot.val());
+  }, function (errorObject){
+    console.log(errorObject);
+  });
 
-    $scope.scrollEvent = function(id){
-      var whatWeDoElement = angular.element(document.getElementById(id));
-      $document.scrollToElement(whatWeDoElement, offset, duration)
-    };
+  $scope.randomMessages = $firebaseArray(randomMessageRef);
+  $scope.generalMessages = $firebaseArray(generalMessageRef);
+  $scope.engineeringMessages = $firebaseArray(engineeringMessageRef);
 
-    $scope.master = {};
+  $scope.scrollEvent = function(id){
+    var whatWeDoElement = angular.element(document.getElementById(id));
+    $document.scrollToElement(whatWeDoElement, offset, duration)
+  };
 
-    $scope.update = function(user) {
-      $scope.master = angular.copy(user);
-      console.log($scope.master);
-    };
+  $scope.master = {};
 
-    slackSvc.getSlackMembers().success(function(resp){
-      $scope.slackMembers = resp;
-    });
+  $scope.update = function(user) {
+    $scope.master = angular.copy(user);
+    console.log($scope.master);
+  };
+
+  slackSvc.getSlackMembers().success(function(resp){
+    $scope.slackMembers = resp;
+  });
 
 }]);
