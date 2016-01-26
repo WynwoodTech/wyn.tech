@@ -354,6 +354,10 @@ body {
           top: 33%; }
         .affiliates-area .company-wrapper a .company-logo #dptm {
           background-image: url("../images/dptm.png"); }
+        .affiliates-area .company-wrapper a .company-logo #manifezt {
+          background-image: url("../images/manifezt.jpeg");
+          left: 18%;
+          top: 12%; }
         .affiliates-area .company-wrapper a .company-logo #taptl {
           background-image: url("../images/taptl.png");
           top: 18%;
