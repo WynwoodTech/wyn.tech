@@ -222,14 +222,13 @@ body {
 
 .slack-data{
 	text-align:center;
-	height:100px;
+	height:150px;
 	.data-title{
 		font-size:25px;
 	}
 	.data-number{
 		font-size: 40px;
 		position: relative;
-    top: 10px;
 	}
 	.total-members{
 	  width:50%;
@@ -443,6 +442,9 @@ body {
 				}
 				#dptm{
 					background-image: url("../images/dptm.png");
+				}
+				#mystyleblox{
+					background-image: url("../images/mystyleblox.png");
 				}
 				#manifezt{
 					background-image: url("../images/manifezt.jpeg");

@@ -188,13 +188,12 @@ body {
 
 .slack-data {
   text-align: center;
-  height: 100px; }
+  height: 150px; }
   .slack-data .data-title {
     font-size: 25px; }
   .slack-data .data-number {
     font-size: 40px;
-    position: relative;
-    top: 10px; }
+    position: relative; }
   .slack-data .total-members {
     width: 50%;
     height: 100px;
@@ -375,6 +374,8 @@ body {
           top: 33%; }
         .affiliates-area .company-wrapper a .company-logo #dptm {
           background-image: url("../images/dptm.png"); }
+        .affiliates-area .company-wrapper a .company-logo #mystyleblox {
+          background-image: url("../images/mystyleblox.png"); }
         .affiliates-area .company-wrapper a .company-logo #manifezt {
           background-image: url("../images/manifezt.jpeg");
           left: 18%;
