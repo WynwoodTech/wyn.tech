@@ -57,6 +57,7 @@ angular.module('WynTech.home', [])
 
   slackSvc.getSlackMembers().success(function(resp){
     $scope.slackMembers = resp;
+    $scope.slackMemberCount = $scope.slackMembers.length;
   });
 
 }]);
