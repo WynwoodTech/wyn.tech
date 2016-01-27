@@ -29,6 +29,7 @@ body {
 .space{
 	background:url("../images/banner.jpg") no-repeat center top fixed; 
 	background-size: cover;
+	color:white;
 }
 .wynwood{
 	background:#252525; 
@@ -216,6 +217,31 @@ body {
 		position: relative;
 		margin: auto;
 		margin-bottom: 5em;
+	}
+}
+
+.slack-data{
+	text-align:center;
+	height:100px;
+	.data-title{
+		font-size:25px;
+	}
+	.data-number{
+		font-size: 40px;
+		position: relative;
+    top: 10px;
+	}
+	.total-members{
+	  width:50%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+	}
+	.messages-sent{
+	  width:50%;
+    height: 100px;
+    position: absolute;
+    right: 0;
 	}
 }
 

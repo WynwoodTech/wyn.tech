@@ -62,14 +62,14 @@
   <span class="header">What We Do</span>
   <span class="about-text">
     <p>
-     Wynwood Tech is a community composed of professionals, students, freelancers, 
-     creatives, and engineers from all over South Florida.
-      Our community has organically grown since 2015 and is an important
-      facet to the success of growing the tech ecosystem in South Florida.
-      Wynwood Tech empowers the South Florida community, whether it is through
-      events, or deep technical discussions on our slack channel.
-      Our main purpose is to bring great minds together in an effort to help
-      cultivate knowledge!
+    Wynwood Tech is a community composed of professionals, students, freelancers, 
+    creatives, and engineers from all over South Florida.
+    Our community has organically grown since 2015 and is an important
+    facet to the success of growing the tech ecosystem in South Florida.
+    Wynwood Tech empowers the South Florida community, whether it is through
+    events, or deep technical discussions on our slack channel.
+    Our main purpose is to bring great minds together in an effort to help
+    cultivate knowledge!
     </p>
   </span>
 </div>
@@ -85,6 +85,20 @@
     and creatives in South Florida!
     </p>
   </span>
+</div>
+
+<div class="slack-data space">
+  <div class="total-members">
+    <span class="data-title">Total Members</span>
+    <br>
+    <span class="data-number">00</span>
+    {{member.length}}
+  </div>
+  <div class="messages-sent">
+    <span class="data-title">Messages Sent</span>
+    <br>
+    <span class="data-number">{{messageCounter | number}}</span>
+  </div>
 </div>
 
 <div class="invite-area wynwood">
@@ -246,11 +260,11 @@
 <div class="members-area space" id="current-members">
   <span class="header">Wynwood Tech's Members</span>
   <div class="member-wrapper">
-  <div class="member-info" ng-repeat="member in slackMembers">
-    <img class="member-avatar" ng-mouseenter="show = true" ng-mouseleave="show = false" src="{{member.avatar}}" />
-    <div class="username-area" ng-show="show" >
-      <span class="member-username"  style="color:#{{member.color}}">{{member.username}}</span> 
-    </div>
+    <div class="member-info" ng-repeat="member in slackMembers">
+      <img class="member-avatar" ng-mouseenter="show = true" ng-mouseleave="show = false" src="{{member.avatar}}" />
+      <div class="username-area" ng-show="show" >
+        <span class="member-username"  style="color:#{{member.color}}">{{member.username}}</span> 
+      </div>
     </div>
   </div>
 </div>
@@ -261,100 +275,100 @@
     languages, frameworks and other technologies!
   </div>
   <div class="language-wrapper">
-  <div class="language-logo">
-    <span class="logo" id="adobe"> </span>
-    <span class="language-name">Adobe</span>
+    <div class="language-logo">
+      <span class="logo" id="adobe"> </span>
+      <span class="language-name">Adobe</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="angular"> </span>
+      <span class="language-name">Angular JS</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="aws"> </span>
+      <span class="language-name">AWS</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="chef"> </span>
+      <span class="language-name">Chef</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="css3"> </span>
+      <span class="language-name">CSS3</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="docker"> </span>
+      <span class="language-name">Docker</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="golang"> </span>
+      <span class="language-name">Golang</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="heroku"> </span>
+      <span class="language-name">Heroku</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="html5"> </span>
+      <span class="language-name">HTML5</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="javascript"> </span>
+      <span class="language-name">Javascript</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="linux"> </span>
+      <span class="language-name">Linux</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="node"> </span>
+      <span class="language-name">Node JS</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="php"> </span>
+      <span class="language-name">PHP</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="rails"> </span>
+      <span class="language-name">Rails</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="react"> </span>
+      <span class="language-name">React JS</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="ruby"> </span>
+      <span class="language-name">Ruby</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="sass"> </span>
+      <span class="language-name">SASS</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="vagrant"> </span>
+      <span class="language-name">Vagrant</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="vim"> </span>
+      <span class="language-name">Vim</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="wordpress"> </span>
+      <span class="language-name">Wordpress</span>
+    </div>
+    <div class="language-logo">
+      <span class="logo" id="xcode"> </span>
+      <span class="language-name">X-Code</span>
+    </div>
   </div>
-  <div class="language-logo">
-    <span class="logo" id="angular"> </span>
-    <span class="language-name">Angular JS</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="aws"> </span>
-    <span class="language-name">AWS</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="chef"> </span>
-    <span class="language-name">Chef</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="css3"> </span>
-    <span class="language-name">CSS3</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="docker"> </span>
-    <span class="language-name">Docker</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="golang"> </span>
-    <span class="language-name">Golang</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="heroku"> </span>
-    <span class="language-name">Heroku</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="html5"> </span>
-    <span class="language-name">HTML5</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="javascript"> </span>
-    <span class="language-name">Javascript</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="linux"> </span>
-    <span class="language-name">Linux</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="node"> </span>
-    <span class="language-name">Node JS</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="php"> </span>
-    <span class="language-name">PHP</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="rails"> </span>
-    <span class="language-name">Rails</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="react"> </span>
-    <span class="language-name">React JS</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="ruby"> </span>
-    <span class="language-name">Ruby</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="sass"> </span>
-    <span class="language-name">SASS</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="vagrant"> </span>
-    <span class="language-name">Vagrant</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="vim"> </span>
-    <span class="language-name">Vim</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="wordpress"> </span>
-    <span class="language-name">Wordpress</span>
-  </div>
-  <div class="language-logo">
-    <span class="logo" id="xcode"> </span>
-    <span class="language-name">X-Code</span>
-  </div>
-</div>
 
 
-<div class="footer">
-  <div class="footer-cta">Get In Touch</div>
-  <div class="footlinkarea">
-    <a class="footer-link" href="https://www.facebook.com/wynwoodtech" target="_blank"><div class="fa fa-facebook-square"></div></a>
-    <a class="footer-link" href="http://instagram.com/wynwoodtech/" target="_blank"><div class="fa fa-instagram"></div></a>
-    <a class="footer-link" href="https://twitter.com/wynwoodtech" target="_blank"><div class="fa fa-twitter-square"></div></a>
-    <a class="footer-link" href="https://github.com/WynwoodTech" target="_blank"><div class="fa fa-github-square"></div></a>
+  <div class="footer">
+    <div class="footer-cta">Get In Touch</div>
+    <div class="footlinkarea">
+      <a class="footer-link" href="https://www.facebook.com/wynwoodtech" target="_blank"><div class="fa fa-facebook-square"></div></a>
+      <a class="footer-link" href="http://instagram.com/wynwoodtech/" target="_blank"><div class="fa fa-instagram"></div></a>
+      <a class="footer-link" href="https://twitter.com/wynwoodtech" target="_blank"><div class="fa fa-twitter-square"></div></a>
+      <a class="footer-link" href="https://github.com/WynwoodTech" target="_blank"><div class="fa fa-github-square"></div></a>
+    </div>
+    <div class="entity">&copy; 2016, Wynwood Tech LLC.</div>
   </div>
-  <div class="entity">&copy; 2016, Wynwood Tech LLC.</div>
-</div>
