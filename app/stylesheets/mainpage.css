@@ -596,6 +596,12 @@ body {
         height: 57px;
         top: 10%;
         left: 0; }
+      .language-area .language-wrapper .language-logo #swift {
+        background-image: url("../images/swift.png");
+        width: 55px;
+        height: 55px;
+        top: 13%;
+        left: 22px; }
       .language-area .language-wrapper .language-logo #vagrant {
         background-image: url("../images/vagrant.png");
         width: 50px;
