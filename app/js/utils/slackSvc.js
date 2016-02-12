@@ -6,7 +6,7 @@ angular.module("WynTech")
   this.getSlackMembers = function(){
     return $http({
       method: 'GET',
-      url: 'http://127.0.0.1:3002/members'
+      url: 'https://wyn.tech:3002/members'
     })
   }
 }]);

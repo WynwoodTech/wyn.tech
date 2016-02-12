@@ -21,8 +21,6 @@ WynTech.config(['$locationProvider', 'AnalyticsProvider', function($locationProv
   AnalyticsProvider
   .setAccount('UA-72542635-1')
   .logAllCalls(true)
-  .startOffline(true);
-
 }]);
 
 WynTech.config(['$stateProvider', '$httpProvider', function($stateProvider, $httpProvider){
@@ -44,3 +42,5 @@ WynTech.config(['$stateProvider', '$httpProvider', function($stateProvider, $htt
   });
 
 }])
+
+WynTech.run(function(Analytics){});
