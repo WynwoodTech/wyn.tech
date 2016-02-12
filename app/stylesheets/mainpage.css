@@ -415,6 +415,12 @@ body {
           width: 115px;
           height: 115px;
           left: 20%; }
+        .affiliates-area .company-wrapper a .company-logo #pacific54 {
+          background-image: url("../images/pacific54.svg");
+          top: 35px;
+          width: 175px;
+          height: 175px;
+          left: 5%; }
         .affiliates-area .company-wrapper a .company-logo .mason-wrapper {
           width: 175px;
           position: absolute;
@@ -606,8 +612,8 @@ body {
         background-image: url("../images/rust.svg");
         width: 75px;
         height: 75px;
-        top: 0%;
-        left: 13px; }
+        top: 3%;
+        left: 15px; }
       .language-area .language-wrapper .language-logo #sass {
         background-image: url("../images/sass.jpg");
         width: 100px;
@@ -678,6 +684,18 @@ body {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .chat-widget {
-    float: none !important; } }
+    float: none !important; }
+
+  .affiliates-area .company-wrapper {
+    width: 95% !important;
+    margin: 0 auto; }
+
+  .members-area .member-wrapper {
+    width: 95% !important;
+    margin: 0 auto; }
+
+  .language-area .language-wrapper {
+    width: 95% !important;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=mainpage.css.map */

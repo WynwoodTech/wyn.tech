@@ -493,6 +493,13 @@ body {
 					height: 115px;
 					left: 20%;
 				}
+				#pacific54{
+					background-image: url("../images/pacific54.svg");
+					top: 35px;
+					width: 175px;
+					height: 175px;
+					left: 5%;
+				}
 				.mason-wrapper{
 					width: 175px;
 					position: absolute;
@@ -717,8 +724,8 @@ body {
 				background-image: url("../images/rust.svg");
 				width: 75px;
 				height: 75px;
-				top: 0%;
-				left: 13px;
+				top: 3%;
+				left: 15px;
 			}
 			#sass{
 				background-image: url("../images/sass.jpg");
@@ -812,4 +819,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	.chat-widget{
 		float:none !important;
 	}
+
+.affiliates-area .company-wrapper {
+    width: 95% !important;
+    margin: 0 auto;
+}
+
+.members-area .member-wrapper {
+    width: 95% !important;
+    margin: 0 auto;
+}
+
+.language-area .language-wrapper {
+    width: 95% !important;
+    margin: 0 auto;
+	}
+
 }
