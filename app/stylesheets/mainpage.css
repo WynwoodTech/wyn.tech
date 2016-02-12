@@ -497,7 +497,7 @@ body {
       .language-area .language-wrapper .language-logo #angular {
         background-image: url("../images/angular.png");
         width: 55px;
-        height: 100px;
+        height: 55px;
         top: 13%;
         left: 23%; }
       .language-area .language-wrapper .language-logo #aws {
@@ -563,7 +563,7 @@ body {
       .language-area .language-wrapper .language-logo #node {
         background-image: url("../images/node.png");
         width: 90px;
-        height: 100px;
+        height: 25px;
         top: 30%;
         left: 8px; }
       .language-area .language-wrapper .language-logo #php {
@@ -590,6 +590,12 @@ body {
         height: 100px;
         top: -12%;
         left: 0; }
+      .language-area .language-wrapper .language-logo #rust {
+        background-image: url("../images/rust.svg");
+        width: 75px;
+        height: 75px;
+        top: 0%;
+        left: 13px; }
       .language-area .language-wrapper .language-logo #sass {
         background-image: url("../images/sass.jpg");
         width: 100px;

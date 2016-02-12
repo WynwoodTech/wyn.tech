@@ -590,7 +590,7 @@ body {
 			#angular{
 				background-image: url("../images/angular.png");
 				width: 55px;
-				height: 100px;
+				height: 55px;
 				top: 13%;
 				left: 23%;
 			}
@@ -667,7 +667,7 @@ body {
 			#node{
 				background-image: url("../images/node.png");
 				width: 90px;
-				height: 100px;
+				height: 25px;
 				top: 30%;
 				left: 8px;
 			}
@@ -698,6 +698,13 @@ body {
 				height: 100px;
 				top: -12%;
 				left:0;
+			}
+			#rust{
+				background-image: url("../images/rust.svg");
+				width: 75px;
+				height: 75px;
+				top: 0%;
+				left: 13px;
 			}
 			#sass{
 				background-image: url("../images/sass.jpg");
