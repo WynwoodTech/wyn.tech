@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Icono</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#DBDBDB" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M390,8.72731838e-15 C464,8.72731838e-15 512,48 512,122 L512,390 C512,464 464,512 390,512 L122,512 C48,512 0,464 0,390 L0,122 C0,48 48,8.72731842e-15 122,8.72731842e-15 L390,8.72731838e-15 Z"></path>
+        <linearGradient x1="202.502669%" y1="214.903326%" x2="5.07756891%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#B1B1B1" stop-opacity="0.419244039" offset="41.9244039%"></stop>
+            <stop stop-color="#4A4A4A" stop-opacity="0.836786685" offset="76.2887967%"></stop>
+            <stop stop-color="#464646" stop-opacity="0.420846516" offset="92.8976416%"></stop>
+            <stop stop-color="#464646" stop-opacity="0.420846516" offset="92.8976416%"></stop>
+            <stop stop-color="#464646" stop-opacity="0.418809604" offset="92.9789772%"></stop>
+            <stop stop-color="#454545" stop-opacity="0.242980072" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#5B5B5B" offset="0%"></stop>
+            <stop stop-color="#2E2E2E" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic" result="blur"></feGaussianBlur>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic" result="blur"></feGaussianBlur>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic" result="blur"></feGaussianBlur>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic" result="blur"></feGaussianBlur>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic" result="blur"></feGaussianBlur>
+        </filter>
+        <rect id="path-11" x="0" y="0" width="430" height="338.598361" rx="50.390625"></rect>
+        <path d="M9.18489191,91.7777193 C18.3051904,78.8470647 33.3586454,70.4016393 50.3925115,70.4016393 L379.607488,70.4016393 C397.562573,70.4016393 413.324409,79.7917737 422.249771,93.9298775 L257.437396,257.761136 C235.067708,279.99766 198.786062,280.007732 176.406655,257.790168 L9.18489191,91.7777193 Z" id="path-13"></path>
+    </defs>
+    <g id="Icono" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="App-Store-Artwork" sketch:type="MSArtboardGroup">
+            <g id="Icono" sketch:type="MSLayerGroup">
+                <g id="Sombras">
+                    <mask id="mask-3" sketch:name="Icono" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Icono" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                    <path d="M189.791622,121.504515 L178.747867,111.325926 L201.984353,110.926486 L201.984351,67.9635773 L310.088226,68.5985205 L323.597237,59.2867111 L376.484584,121.877142 L455.921021,135.978961 L512.733577,235.490005 L512.733577,512.373961 L133.309998,512.373949 L53.9522967,443.015746 L189.791622,121.504515 Z" id="Sombra" opacity="0.400000006" fill="url(#linearGradient-4)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                    <path d="M333.231901,111.300003 L349.549999,126.300003 L326.068098,126.300003 L309.75,111.300003 L333.231901,111.300003 Z" id="Asa-Derecha" opacity="0.100000001" fill="url(#linearGradient-5)" filter="url(#filter-6)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                    <path d="M288.057061,67 L352.389805,126.300003 L317.332745,126.300003 L253,67 L288.057061,67 Z" id="Asa-Arriba-3" opacity="0.149999991" fill="url(#linearGradient-5)" filter="url(#filter-7)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                    <path d="M254.057061,67 L318.389805,126.300003 L283.332745,126.300003 L219,67 L254.057061,67 Z" id="Asa-Arriba-2" opacity="0.149999991" fill="url(#linearGradient-5)" filter="url(#filter-8)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                    <path d="M214.057061,67 L278.389805,126.300003 L243.332745,126.300003 L179,67 L214.057061,67 Z" id="Asa-Arriba-1" opacity="0.100000001" fill="url(#linearGradient-5)" filter="url(#filter-9)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                    <path d="M202.231901,111.300003 L218.549999,126.300003 L195.068098,126.300003 L178.75,111.300003 L202.231901,111.300003 Z" id="Asa-Izq" opacity="0.100000001" fill="url(#linearGradient-5)" filter="url(#filter-10)" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                </g>
+                <g id="Icon" transform="translate(41.000000, 51.000000)">
+                    <g id="Bottom" transform="translate(0.000000, 70.401639)">
+                        <mask id="mask-12" sketch:name="Mask" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <use id="Mask" opacity="0.699999988" fill="#D8D8D8" sketch:type="MSShapeGroup" xlink:href="#path-11"></use>
+                        <g id="Barras" mask="url(#mask-12)" sketch:type="MSShapeGroup">
+                            <rect id="Azul-Centro" fill="#3449C6" x="178.046875" y="0" width="73.90625" height="338.598361"></rect>
+                            <rect id="Azul-Derecha" fill="#3449C6" x="356.09375" y="0" width="73.90625" height="338.598361"></rect>
+                            <rect id="Rectangle-2" fill="#FFFFFF" x="73.90625" y="0" width="104.140625" height="338.598361"></rect>
+                            <rect id="Rectangle-2" fill="#FFFFFF" x="251.953125" y="0" width="104.140625" height="338.598361"></rect>
+                            <rect id="Azul-Izquierda" fill="#3449C6" x="0" y="0" width="73.90625" height="338.598361"></rect>
+                        </g>
+                    </g>
+                    <mask id="mask-14" sketch:name="Top" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <use id="Top" fill="#D3474A" sketch:type="MSShapeGroup" xlink:href="#path-13"></use>
+                    <polygon id="Star-1" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-14)" points="215 189.992506 190.085505 207.852459 199.278126 178.506193 174.6875 160.197986 205.283347 159.920949 215 130.745902 224.716653 159.920949 255.3125 160.197986 230.721874 178.506193 239.914495 207.852459 "></polygon>
+                    <path d="M268.75,36.9110967 C268.75,29.4862448 262.739986,23.4672131 255.311758,23.4672131 L174.688242,23.4672131 C167.266506,23.4672131 161.25,29.4742223 161.25,36.9110967 L161.25,60.3442623 L137.734375,60.3442623 L137.734375,30.1721312 C137.734375,13.5085234 151.245049,1.47974319e-07 167.907888,1.30489827e-07 L262.092112,3.16613297e-08 C278.756483,1.41752301e-08 292.265625,13.5048594 292.265625,30.1721311 L292.265625,60.3442623 L268.75,60.3442623 L268.75,36.9110967 Z" id="Asa" fill="#3449C6" sketch:type="MSShapeGroup"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

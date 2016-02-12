@@ -409,6 +409,12 @@ body {
           width: 150px;
           height: 150px;
           left: 13%; }
+        .affiliates-area .company-wrapper a .company-logo #libras {
+          background-image: url("../images/libras.svg");
+          top: 30px;
+          width: 115px;
+          height: 115px;
+          left: 20%; }
         .affiliates-area .company-wrapper a .company-logo .mason-wrapper {
           width: 175px;
           position: absolute;
@@ -608,6 +614,12 @@ body {
         height: 57px;
         top: 10%;
         left: 0; }
+      .language-area .language-wrapper .language-logo #sketch {
+        background-image: url("../images/sketch.png");
+        width: 55px;
+        height: 55px;
+        top: 17%;
+        left: 22px; }
       .language-area .language-wrapper .language-logo #swift {
         background-image: url("../images/swift.png");
         width: 55px;

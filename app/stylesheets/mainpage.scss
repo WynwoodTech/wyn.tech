@@ -486,6 +486,13 @@ body {
 					height: 150px;
 					left: 13%;
 				}
+				#libras{
+					background-image: url("../images/libras.svg");
+					top: 30px;
+					width: 115px;
+					height: 115px;
+					left: 20%;
+				}
 				.mason-wrapper{
 					width: 175px;
 					position: absolute;
@@ -719,6 +726,13 @@ body {
 				height: 57px;
 				top: 10%;
 				left: 0;
+			}
+			#sketch{
+				background-image: url("../images/sketch.png");
+				width: 55px;
+				height: 55px;
+				top: 17%;
+				left: 22px;
 			}
 			#swift{
 				background-image: url("../images/swift.png");
