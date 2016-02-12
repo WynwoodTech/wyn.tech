@@ -530,6 +530,12 @@ body {
         height: 70px;
         top: 5%;
         left: 15px; }
+      .language-area .language-wrapper .language-logo #elixir {
+        background-image: url("../images/elixir.png");
+        width: 55px;
+        height: 55px;
+        top: 10%;
+        left: 20px; }
       .language-area .language-wrapper .language-logo #golang {
         background-image: url("../images/golang.png");
         width: 50px;
