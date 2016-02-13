@@ -835,4 +835,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin: 0 auto;
 	}
 
+.space{
+	background:url("../images/banner.jpg"); 
+	background-size: cover;
+	background-repeat: round;
+	color:white;
+}
+
 }

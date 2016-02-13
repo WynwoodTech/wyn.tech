@@ -696,6 +696,12 @@ body {
 
   .language-area .language-wrapper {
     width: 95% !important;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .space {
+    background: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: round;
+    color: white; } }
 
 /*# sourceMappingURL=mainpage.css.map */
