@@ -702,6 +702,11 @@ body {
     background: url("../images/banner.jpg");
     background-size: cover;
     background-repeat: round;
-    color: white; } }
+    color: white; }
+
+  .slack-data {
+    background: #252525 !important;
+    color: white !important;
+    padding-top: 50px !important; } }
 
 /*# sourceMappingURL=mainpage.css.map */
