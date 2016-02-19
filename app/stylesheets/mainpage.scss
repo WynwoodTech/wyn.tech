@@ -87,7 +87,7 @@ body {
 		font-weight: bold;
 	}
 	.sub-title{
-		font-size:15px;
+		font-size:1.4em;
 		color:white;
 		display: block;
 		padding-top: 20px;
@@ -170,8 +170,6 @@ body {
 	}
 }
 
-
-
 .about{
 	position: relative;
 	color:white;
@@ -181,6 +179,7 @@ body {
 		line-height: 2em;
 		width: 70%;
 		margin: 0 auto;
+    text-align: justify;
 	}
 	.laptop-image{
 		background-image: url("../images/lapcell.png");
@@ -217,6 +216,42 @@ body {
 		position: relative;
 		margin: auto;
 		margin-bottom: 5em;
+	}
+}
+
+.slack-data-top{
+	text-align:center;
+	height:150px;
+  max-width:80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+
+	.data-title{
+		font-size:25px;
+	}
+	.data-number{
+		font-size: 40px;
+		position: relative;
+	}
+	.total-members{
+	  width:30%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+	}
+	.online-members{
+	  width:30%;
+    height: 100px;
+    position: absolute;
+    left: 35%;
+	}
+	.messages-sent{
+	  width:30%;
+    height: 100px;
+    position: absolute;
+    right: 0;
 	}
 }
 

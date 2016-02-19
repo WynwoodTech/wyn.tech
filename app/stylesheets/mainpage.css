@@ -75,7 +75,7 @@ body {
     font-size: 80px;
     font-weight: bold; }
   .home-area .sub-title {
-    font-size: 15px;
+    font-size: 1.4em;
     color: white;
     display: block;
     padding-top: 20px; }
@@ -152,7 +152,8 @@ body {
   .about p {
     line-height: 2em;
     width: 70%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    text-align: justify; }
   .about .laptop-image {
     background-image: url("../images/lapcell.png");
     background-repeat: no-repeat;
@@ -185,6 +186,35 @@ body {
     position: relative;
     margin: auto;
     margin-bottom: 5em; }
+
+.slack-data-top {
+  text-align: center;
+  height: 150px;
+  max-width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em; }
+  .slack-data-top .data-title {
+    font-size: 25px; }
+  .slack-data-top .data-number {
+    font-size: 40px;
+    position: relative; }
+  .slack-data-top .total-members {
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    left: 0; }
+  .slack-data-top .online-members {
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    left: 35%; }
+  .slack-data-top .messages-sent {
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    right: 0; }
 
 .slack-data {
   text-align: center;
