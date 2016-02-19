@@ -11,9 +11,7 @@
 
 <div class="home-area space" id='home-title'>
   <span class="title">Wynwood Tech</span>
-  <span class="sub-title">Bringing South Florida together
-    through technology!</span>
-
+  <span class="sub-title">Miami's most active Slack channel !</span>
 
   <div class="home-link-area">
     <a class="home-link" href="https://www.facebook.com/wynwoodtech" target="_blank"><div class="fa fa-facebook-square"></div></a>
@@ -33,6 +31,26 @@
 
   <span href="#" class="button"  ng-model="collapsed"
     ng-click="collapsed=!collapsed">Request Slack Invite</span>
+
+  <div class="slack-data-top space">
+    <div class="total-members">
+      <span class="data-title">Total Members</span>
+      <br>
+      <span class="data-number">{{slackMemberCount}}</span>
+    </div>
+
+    <div class="online-members">
+      <span class="data-title">Currently Online</span>
+      <br>
+      <span class="data-number">{{slackMembersOnline}}</span>
+    </div>
+
+    <div class="messages-sent">
+      <span class="data-title">Messages Sent</span>
+      <br>
+      <span class="data-number">{{messageCounter | number}}</span>
+    </div>
+  </div>
 
   <div id="login" ng-show="collapsed">
     <div id="triangle"></div>
@@ -87,19 +105,19 @@
   </span>
 </div>
 
-<div class="slack-data space">
-  <div class="total-members">
-    <span class="data-title">Total Members</span>
-    <br>
-    <span class="data-number">{{slackMemberCount}}</span>
+<!--<div class="slack-data space">-->
+  <!--<div class="total-members">-->
+    <!--<span class="data-title">Total Members</span>-->
+    <!--<br>-->
+    <!--<span class="data-number">{{slackMemberCount}}</span>-->
     
-  </div>
-  <div class="messages-sent">
-    <span class="data-title">Messages Sent</span>
-    <br>
-    <span class="data-number">{{messageCounter | number}}</span>
-  </div>
-</div>
+  <!--</div>-->
+  <!--<div class="messages-sent">-->
+    <!--<span class="data-title">Messages Sent</span>-->
+    <!--<br>-->
+    <!--<span class="data-number">{{messageCounter | number}}</span>-->
+  <!--</div>-->
+<!--</div>-->
 
 <div class="invite-area wynwood">
   <div class="preview">Click below to get in the action!</div>

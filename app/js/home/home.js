@@ -11,6 +11,7 @@ angular.module('WynTech.home', [])
 
   var messageCounterRef = new Firebase("https://wyntech.firebaseio.com/message-counter");
 
+  var onlineMembersRef  = new Firebase("https://wyntech.firebaseio.com/online-members");
   var randomMessageRef  = new Firebase("https://wyntech.firebaseio.com/random");
   var generalMessageRef = new Firebase("https://wyntech.firebaseio.com/general");
   var engineeringMessageRef = new Firebase("https://wyntech.firebaseio.com/engineering");
@@ -34,6 +35,13 @@ angular.module('WynTech.home', [])
   });
 
   engineeringMessageRef.on("value", function(snapshot){
+    console.log(snapshot.val());
+  }, function (errorObject){
+    console.log(errorObject);
+  });
+
+  onlineMembersRef.on("value", function(snapshot){
+    $scope.slackMembersOnline = snapshot.val();
     console.log(snapshot.val());
   }, function (errorObject){
     console.log(errorObject);
