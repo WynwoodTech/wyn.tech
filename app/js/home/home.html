@@ -32,25 +32,6 @@
   <span href="#" class="button"  ng-model="collapsed"
     ng-click="collapsed=!collapsed">Request Slack Invite</span>
 
-  <div class="slack-data-top">
-    <div class="total-members">
-      <span class="data-title">Total Members</span>
-      <br>
-      <span class="data-number">{{slackMemberCount}}</span>
-    </div>
-
-    <div class="online-members">
-      <span class="data-title">Currently Online</span>
-      <br>
-      <span class="data-number">{{slackMembersOnline}}</span>
-    </div>
-
-    <div class="messages-sent">
-      <span class="data-title">Messages Sent</span>
-      <br>
-      <span class="data-number">{{messageCounter | number}}</span>
-    </div>
-  </div>
 
   <div id="login" ng-show="collapsed">
     <div id="triangle"></div>
@@ -70,6 +51,25 @@
           <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
         </div>
       </form>
+    </div>
+  </div>
+  <div class="slack-data-top">
+    <div class="total-members">
+      <span class="data-title">Total Members</span>
+      <br>
+      <span class="data-number">{{slackMemberCount}}</span>
+    </div>
+
+    <div class="online-members">
+      <span class="data-title">Currently Online</span>
+      <br>
+      <span class="data-number">{{slackMembersOnline}}</span>
+    </div>
+
+    <div class="messages-sent">
+      <span class="data-title">Messages Sent</span>
+      <br>
+      <span class="data-number">{{messageCounter | number}}</span>
     </div>
   </div>
 </div>
