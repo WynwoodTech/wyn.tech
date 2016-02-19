@@ -400,6 +400,7 @@ body {
 						box-sizing: border-box;
 						margin-top:10px;
 						border-radius:50px;
+						overflow:hidden;
 						.chat-avatar{
 							display: inline-block;
 							width: 45px;
@@ -684,6 +685,13 @@ body {
 				height: 55px;
 				top: 10%;
 				left: 20px;
+			}
+			#emacs{
+				background-image: url("../images/emacs.png");
+				width: 70px;
+				height: 70px;
+				top: 5%;
+				left: 15px;
 			}
 			#golang{
 				background-image: url("../images/golang.png");

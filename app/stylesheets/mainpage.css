@@ -341,7 +341,8 @@ body {
             padding: 10px;
             box-sizing: border-box;
             margin-top: 10px;
-            border-radius: 50px; }
+            border-radius: 50px;
+            overflow: hidden; }
             .chat-area .chat-wrapper .chat-widget .chats ul li .chat-avatar {
               display: inline-block;
               width: 45px;
@@ -578,6 +579,12 @@ body {
         height: 55px;
         top: 10%;
         left: 20px; }
+      .language-area .language-wrapper .language-logo #emacs {
+        background-image: url("../images/emacs.png");
+        width: 70px;
+        height: 70px;
+        top: 5%;
+        left: 15px; }
       .language-area .language-wrapper .language-logo #golang {
         background-image: url("../images/golang.png");
         width: 50px;
