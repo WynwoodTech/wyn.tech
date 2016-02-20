@@ -77,7 +77,7 @@ body {
 
 .home-area{
 	width: 100%;
-	height:100vh;
+	height:120vh;
 	text-align:center;
 	position: relative;
 	padding-top:150px;
@@ -222,62 +222,31 @@ body {
 .slack-data-top{
 	text-align:center;
 	height:150px;
-  max-width:80%;
+  width:90%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4em;
-
+	display:inline-flex;
 	.data-title{
 		font-size:25px;
 	}
 	.data-number{
 		font-size: 40px;
 		position: relative;
+		top:10px;
 	}
 	.total-members{
-	  width:30%;
-    height: 100px;
-    position: absolute;
-    left: 0;
+		width:33%;
 	}
 	.online-members{
-	  width:30%;
-    height: 100px;
-    position: absolute;
-    left: 35%;
+		width:33%;
 	}
 	.messages-sent{
-	  width:30%;
-    height: 100px;
-    position: absolute;
-    right: 0;
+		width:33%;
 	}
 }
 
-.slack-data{
-	text-align:center;
-	height:150px;
-	.data-title{
-		font-size:25px;
-	}
-	.data-number{
-		font-size: 40px;
-		position: relative;
-	}
-	.total-members{
-	  width:50%;
-    height: 100px;
-    position: absolute;
-    left: 0;
-	}
-	.messages-sent{
-	  width:50%;
-    height: 100px;
-    position: absolute;
-    right: 0;
-	}
-}
 
 
 .invite-area{
@@ -889,4 +858,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	color:white !important;
 	padding-top: 50px !important;
 	}
+	.slack-data-top .data-number {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+.slack-data-top .data-title {
+    font-size: 23px;
+}
+
 }
