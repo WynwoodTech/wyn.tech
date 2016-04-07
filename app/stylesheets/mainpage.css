@@ -420,6 +420,11 @@ body {
           width: 115px;
           height: 115px;
           left: 20%; }
+        .affiliates-area .company-wrapper a .company-logo #wyncode {
+          background-image: url("../images/wyncode.png");
+          width: 175px;
+          height: 175px;
+          left: 5%; }
         .affiliates-area .company-wrapper a .company-logo #pacific54 {
           background-image: url("../images/pacific54.svg");
           top: 35px;
