@@ -424,7 +424,8 @@ body {
           background-image: url("../images/wyncode.png");
           width: 175px;
           height: 175px;
-          left: 5%; }
+          left: 5%;
+          top: 0; }
         .affiliates-area .company-wrapper a .company-logo #pacific54 {
           background-image: url("../images/pacific54.svg");
           top: 35px;
