@@ -179,7 +179,7 @@ body {
 		line-height: 2em;
 		width: 70%;
 		margin: 0 auto;
-    text-align: justify;
+    text-align: left;
 	}
 	.laptop-image{
 		background-image: url("../images/lapcell.png");
@@ -497,6 +497,13 @@ body {
 					width: 115px;
 					height: 115px;
 					left: 20%;
+				}
+				#wyncode{
+					background-image: url("../images/wyncode.png");
+					width: 175px;
+					height: 175px;
+					left: 5%;
+					top:0;
 				}
 				#pacific54{
 					background-image: url("../images/pacific54.svg");
