@@ -374,6 +374,12 @@ body {
           background-image: url("../images/blubeta.svg"); }
         .affiliates-area .company-wrapper a .company-logo #fuegtees {
           background-image: url("../images/FuegTees.png"); }
+        .affiliates-area .company-wrapper a .company-logo #onetwelfth {
+          background-image: url("../images/112.png");
+          width: 110px;
+          height: 110px;
+          top: 15%;
+          left: 23%; }
         .affiliates-area .company-wrapper a .company-logo #blackbambu {
           background-image: url("../images/blackbambu.png");
           top: 33%; }
